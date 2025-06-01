@@ -1,0 +1,265 @@
+2025-05-22 23:52:14,658 - INFO - Running experiment...
+2025-05-22 23:52:14,658 - INFO - Starting training...
+2025-05-22 23:52:14,658 - INFO - Loading processed data...
+2025-05-22 23:52:15,809 - INFO - Loaded datasets: Train=15600, Val=1950, Test=1950
+2025-05-22 23:52:15,813 - INFO - Scaling features...
+2025-05-22 23:52:15,827 - INFO - Saved StandardScaler to F:\PythonDataset\08train\models/scaler.joblib
+2025-05-22 23:52:15,828 - INFO - Selecting top features...
+2025-05-22 23:52:18,582 - INFO - Top 10 features: ['NEST', 'code_complexity', 'LOC_method', 'LENGTH', 'NOP_method', 'CYCLO_method', 'LOC', 'TOKEN_COUNT', 'param_loc_ratio', 'loc_nom_normalized']
+2025-05-22 23:52:18,587 - INFO - Training SVM model...
+2025-05-23 00:10:52,522 - INFO - Best parameters for SVM: {'C': 20.0, 'gamma': 0.5, 'kernel': 'rbf'}
+2025-05-23 00:10:52,522 - INFO - Best cross-validation MCC for SVM: 0.8490
+2025-05-23 00:14:23,312 - INFO - Evaluating SVM on validation set...
+2025-05-23 00:14:40,933 - INFO - SVM Validation Accuracy: 0.9113
+2025-05-23 00:14:40,933 - INFO - SVM Validation MCC: 0.8764
+2025-05-23 00:14:40,933 - INFO - SVM Validation Macro F1-Score: 0.9263
+2025-05-23 00:14:40,933 - INFO - SVM Validation Log Loss: 0.3288
+2025-05-23 00:14:40,933 - INFO - SVM Validation Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       150
+           1       0.97      0.86      0.91       600
+           2       0.85      0.93      0.89       600
+           3       0.90      0.93      0.91       600
+
+    accuracy                           0.91      1950
+   macro avg       0.93      0.92      0.93      1950
+weighted avg       0.92      0.91      0.91      1950
+
+2025-05-23 00:14:40,955 - INFO - Smell-Severity Metrics for val (SVM):
+2025-05-23 00:14:40,955 - INFO -   DeepNesting S1: Correct=127, Total=150, Precision=1.00, Recall=0.85, F1=0.92
+2025-05-23 00:14:40,956 - INFO -   DeepNesting S2: Correct=137, Total=150, Precision=0.91, Recall=0.91, F1=0.91
+2025-05-23 00:14:40,956 - INFO -   DeepNesting S3: Correct=150, Total=150, Precision=0.87, Recall=1.00, F1=0.93
+2025-05-23 00:14:40,956 - INFO -   LargeClass S1: Correct=142, Total=150, Precision=0.99, Recall=0.95, F1=0.97
+2025-05-23 00:14:40,956 - INFO -   LargeClass S2: Correct=147, Total=150, Precision=0.89, Recall=0.98, F1=0.93
+2025-05-23 00:14:40,956 - INFO -   LargeClass S3: Correct=140, Total=150, Precision=0.99, Recall=0.93, F1=0.96
+2025-05-23 00:14:40,956 - INFO -   LongMethod S1: Correct=116, Total=150, Precision=0.97, Recall=0.77, F1=0.86
+2025-05-23 00:14:40,957 - INFO -   LongMethod S2: Correct=133, Total=150, Precision=0.77, Recall=0.89, F1=0.83
+2025-05-23 00:14:40,957 - INFO -   LongMethod S3: Correct=130, Total=150, Precision=0.82, Recall=0.87, F1=0.84
+2025-05-23 00:14:40,957 - INFO -   LongParameterList S1: Correct=130, Total=150, Precision=0.96, Recall=0.87, F1=0.91
+2025-05-23 00:14:40,957 - INFO -   LongParameterList S2: Correct=141, Total=150, Precision=0.84, Recall=0.94, F1=0.89
+2025-05-23 00:14:40,957 - INFO -   LongParameterList S3: Correct=137, Total=150, Precision=0.93, Recall=0.91, F1=0.92
+2025-05-23 00:14:40,957 - INFO -   NoneSmellorUnknown S0: Correct=147, Total=150, Precision=1.00, Recall=0.98, F1=0.99
+2025-05-23 00:14:40,957 - INFO - Evaluating SVM on test set...
+2025-05-23 00:14:58,365 - INFO - SVM Test Accuracy: 0.9010
+2025-05-23 00:14:58,366 - INFO - SVM Test MCC: 0.8617
+2025-05-23 00:14:58,366 - INFO - SVM Test Macro F1-Score: 0.9166
+2025-05-23 00:14:58,366 - INFO - SVM Test Log Loss: 0.3641
+2025-05-23 00:14:58,366 - INFO - SVM Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       150
+           1       0.96      0.86      0.91       600
+           2       0.87      0.87      0.87       600
+           3       0.86      0.95      0.90       600
+
+    accuracy                           0.90      1950
+   macro avg       0.92      0.91      0.92      1950
+weighted avg       0.90      0.90      0.90      1950
+
+2025-05-23 00:14:58,384 - INFO - Smell-Severity Metrics for test (SVM):
+2025-05-23 00:14:58,384 - INFO -   DeepNesting S1: Correct=121, Total=150, Precision=1.00, Recall=0.81, F1=0.89
+2025-05-23 00:14:58,384 - INFO -   DeepNesting S2: Correct=130, Total=150, Precision=0.90, Recall=0.87, F1=0.88
+2025-05-23 00:14:58,384 - INFO -   DeepNesting S3: Correct=147, Total=150, Precision=0.80, Recall=0.98, F1=0.88
+2025-05-23 00:14:58,385 - INFO -   LargeClass S1: Correct=148, Total=150, Precision=0.97, Recall=0.99, F1=0.98
+2025-05-23 00:14:58,385 - INFO -   LargeClass S2: Correct=145, Total=150, Precision=0.97, Recall=0.97, F1=0.97
+2025-05-23 00:14:58,385 - INFO -   LargeClass S3: Correct=147, Total=150, Precision=1.00, Recall=0.98, F1=0.99
+2025-05-23 00:14:58,385 - INFO -   LongMethod S1: Correct=121, Total=150, Precision=0.94, Recall=0.81, F1=0.87
+2025-05-23 00:14:58,385 - INFO -   LongMethod S2: Correct=122, Total=150, Precision=0.74, Recall=0.81, F1=0.78
+2025-05-23 00:14:58,385 - INFO -   LongMethod S3: Correct=130, Total=150, Precision=0.83, Recall=0.87, F1=0.85
+2025-05-23 00:14:58,386 - INFO -   LongParameterList S1: Correct=128, Total=150, Precision=0.97, Recall=0.85, F1=0.91
+2025-05-23 00:14:58,386 - INFO -   LongParameterList S2: Correct=127, Total=150, Precision=0.88, Recall=0.85, F1=0.86
+2025-05-23 00:14:58,386 - INFO -   LongParameterList S3: Correct=146, Total=150, Precision=0.84, Recall=0.97, F1=0.90
+2025-05-23 00:14:58,386 - INFO -   NoneSmellorUnknown S0: Correct=145, Total=150, Precision=1.00, Recall=0.97, F1=0.98
+2025-05-23 00:14:58,389 - INFO - Saved SVM test smell-severity metrics to F:\PythonDataset\08train\predictions/svm_test_smell_metrics.csv
+2025-05-23 00:14:58,408 - INFO - Saved SVM model to F:\PythonDataset\08train\models\svm_model.joblib
+2025-05-23 00:15:07,107 - INFO - Saved SVM test predictions to F:\PythonDataset\08train\predictions\svm_test_predictions.csv
+2025-05-23 00:15:07,110 - INFO - Training RandomForest model...
+2025-05-23 00:19:29,201 - INFO - Best parameters for RandomForest: {'max_depth': 7, 'min_samples_leaf': 20, 'min_samples_split': 60, 'n_estimators': 300}
+2025-05-23 00:19:29,202 - INFO - Best cross-validation MCC for RandomForest: 0.8516
+2025-05-23 00:20:23,019 - INFO - RandomForest OOB Score: 0.8846
+2025-05-23 00:20:23,020 - INFO - Evaluating RandomForest on validation set...
+2025-05-23 00:20:23,994 - INFO - RandomForest Validation Accuracy: 0.9092
+2025-05-23 00:20:23,994 - INFO - RandomForest Validation MCC: 0.8726
+2025-05-23 00:20:23,994 - INFO - RandomForest Validation Macro F1-Score: 0.9057
+2025-05-23 00:20:23,995 - INFO - RandomForest Validation Log Loss: 0.2804
+2025-05-23 00:20:23,995 - INFO - RandomForest Validation Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.81      0.89       150
+           1       0.93      0.85      0.89       600
+           2       0.88      0.93      0.91       600
+           3       0.90      0.96      0.93       600
+
+    accuracy                           0.91      1950
+   macro avg       0.93      0.89      0.91      1950
+weighted avg       0.91      0.91      0.91      1950
+
+2025-05-23 00:20:24,012 - INFO - Smell-Severity Metrics for val (RandomForest):
+2025-05-23 00:20:24,012 - INFO -   DeepNesting S1: Correct=129, Total=150, Precision=0.99, Recall=0.86, F1=0.92
+2025-05-23 00:20:24,012 - INFO -   DeepNesting S2: Correct=131, Total=150, Precision=0.93, Recall=0.87, F1=0.90
+2025-05-23 00:20:24,013 - INFO -   DeepNesting S3: Correct=150, Total=150, Precision=0.84, Recall=1.00, F1=0.91
+2025-05-23 00:20:24,013 - INFO -   LargeClass S1: Correct=133, Total=150, Precision=1.00, Recall=0.89, F1=0.94
+2025-05-23 00:20:24,013 - INFO -   LargeClass S2: Correct=150, Total=150, Precision=0.90, Recall=1.00, F1=0.95
+2025-05-23 00:20:24,013 - INFO -   LargeClass S3: Correct=150, Total=150, Precision=0.99, Recall=1.00, F1=1.00
+2025-05-23 00:20:24,013 - INFO -   LongMethod S1: Correct=120, Total=150, Precision=1.00, Recall=0.80, F1=0.89
+2025-05-23 00:20:24,013 - INFO -   LongMethod S2: Correct=142, Total=150, Precision=0.87, Recall=0.95, F1=0.90
+2025-05-23 00:20:24,014 - INFO -   LongMethod S3: Correct=145, Total=150, Precision=0.87, Recall=0.97, F1=0.92
+2025-05-23 00:20:24,014 - INFO -   LongParameterList S1: Correct=131, Total=150, Precision=0.94, Recall=0.87, F1=0.90
+2025-05-23 00:20:24,014 - INFO -   LongParameterList S2: Correct=137, Total=150, Precision=0.84, Recall=0.91, F1=0.87
+2025-05-23 00:20:24,014 - INFO -   LongParameterList S3: Correct=134, Total=150, Precision=0.92, Recall=0.89, F1=0.91
+2025-05-23 00:20:24,014 - INFO -   NoneSmellorUnknown S0: Correct=121, Total=150, Precision=1.00, Recall=0.81, F1=0.89
+2025-05-23 00:20:24,014 - INFO - Evaluating RandomForest on test set...
+2025-05-23 00:20:24,996 - INFO - RandomForest Test Accuracy: 0.8903
+2025-05-23 00:20:24,996 - INFO - RandomForest Test MCC: 0.8460
+2025-05-23 00:20:24,996 - INFO - RandomForest Test Macro F1-Score: 0.8889
+2025-05-23 00:20:24,996 - INFO - RandomForest Test Log Loss: 0.3184
+2025-05-23 00:20:24,997 - INFO - RandomForest Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.79      0.88       150
+           1       0.92      0.86      0.89       600
+           2       0.88      0.88      0.88       600
+           3       0.85      0.96      0.91       600
+
+    accuracy                           0.89      1950
+   macro avg       0.91      0.87      0.89      1950
+weighted avg       0.89      0.89      0.89      1950
+
+2025-05-23 00:20:25,071 - INFO - Smell-Severity Metrics for test (RandomForest):
+2025-05-23 00:20:25,071 - INFO -   DeepNesting S1: Correct=122, Total=150, Precision=1.00, Recall=0.81, F1=0.90
+2025-05-23 00:20:25,071 - INFO -   DeepNesting S2: Correct=124, Total=150, Precision=0.93, Recall=0.83, F1=0.88
+2025-05-23 00:20:25,071 - INFO -   DeepNesting S3: Correct=150, Total=150, Precision=0.77, Recall=1.00, F1=0.87
+2025-05-23 00:20:25,071 - INFO -   LargeClass S1: Correct=136, Total=150, Precision=1.00, Recall=0.91, F1=0.95
+2025-05-23 00:20:25,072 - INFO -   LargeClass S2: Correct=150, Total=150, Precision=0.91, Recall=1.00, F1=0.96
+2025-05-23 00:20:25,072 - INFO -   LargeClass S3: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:20:25,072 - INFO -   LongMethod S1: Correct=126, Total=150, Precision=1.00, Recall=0.84, F1=0.91
+2025-05-23 00:20:25,072 - INFO -   LongMethod S2: Correct=133, Total=150, Precision=0.85, Recall=0.89, F1=0.87
+2025-05-23 00:20:25,072 - INFO -   LongMethod S3: Correct=144, Total=150, Precision=0.86, Recall=0.96, F1=0.91
+2025-05-23 00:20:25,073 - INFO -   LongParameterList S1: Correct=130, Total=150, Precision=0.92, Recall=0.87, F1=0.89
+2025-05-23 00:20:25,073 - INFO -   LongParameterList S2: Correct=119, Total=150, Precision=0.82, Recall=0.79, F1=0.80
+2025-05-23 00:20:25,073 - INFO -   LongParameterList S3: Correct=133, Total=150, Precision=0.82, Recall=0.89, F1=0.85
+2025-05-23 00:20:25,073 - INFO -   NoneSmellorUnknown S0: Correct=119, Total=150, Precision=1.00, Recall=0.79, F1=0.88
+2025-05-23 00:20:25,075 - INFO - Saved RandomForest test smell-severity metrics to F:\PythonDataset\08train\predictions/randomforest_test_smell_metrics.csv
+2025-05-23 00:20:26,335 - INFO - Saved RandomForest model to F:\PythonDataset\08train\models\randomforest_model.joblib
+2025-05-23 00:20:26,826 - INFO - Saved RandomForest test predictions to F:\PythonDataset\08train\predictions\randomforest_test_predictions.csv
+2025-05-23 00:20:26,832 - INFO - Training XGBoost model...
+2025-05-23 00:32:06,138 - INFO - Best parameters for XGBoost: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_weight': 10, 'reg_alpha': 2.0, 'reg_lambda': 5.0, 'subsample': 0.8}
+2025-05-23 00:32:06,139 - INFO - Best cross-validation MCC for XGBoost: 0.8957
+2025-05-23 00:32:07,522 - INFO - Feature Importance for XGBoost:
+2025-05-23 00:32:07,522 - INFO -   LOC: 52.3037
+2025-05-23 00:32:07,523 - INFO -   loc_nom_normalized: 30.0115
+2025-05-23 00:32:07,523 - INFO -   NEST: 25.6927
+2025-05-23 00:32:07,523 - INFO -   NOP_method: 19.1598
+2025-05-23 00:32:07,523 - INFO -   CYCLO_method: 19.0834
+2025-05-23 00:32:07,523 - INFO -   code_complexity: 18.0863
+2025-05-23 00:32:07,523 - INFO -   LOC_method: 16.5064
+2025-05-23 00:32:07,524 - INFO -   LENGTH: 13.8364
+2025-05-23 00:32:07,524 - INFO -   TOKEN_COUNT: 10.8102
+2025-05-23 00:32:07,524 - INFO -   param_loc_ratio: 4.1583
+2025-05-23 00:32:07,524 - INFO - Evaluating XGBoost on validation set...
+2025-05-23 00:32:07,565 - INFO - XGBoost Validation Accuracy: 0.9313
+2025-05-23 00:32:07,565 - INFO - XGBoost Validation MCC: 0.9039
+2025-05-23 00:32:07,565 - INFO - XGBoost Validation Macro F1-Score: 0.9423
+2025-05-23 00:32:07,565 - INFO - XGBoost Validation Log Loss: 0.1613
+2025-05-23 00:32:07,565 - INFO - XGBoost Validation Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       150
+           1       0.97      0.89      0.93       600
+           2       0.90      0.94      0.92       600
+           3       0.91      0.95      0.93       600
+
+    accuracy                           0.93      1950
+   macro avg       0.95      0.94      0.94      1950
+weighted avg       0.93      0.93      0.93      1950
+
+2025-05-23 00:32:07,595 - INFO - Smell-Severity Metrics for val (XGBoost):
+2025-05-23 00:32:07,596 - INFO -   DeepNesting S1: Correct=129, Total=150, Precision=0.98, Recall=0.86, F1=0.91
+2025-05-23 00:32:07,596 - INFO -   DeepNesting S2: Correct=137, Total=150, Precision=0.93, Recall=0.91, F1=0.92
+2025-05-23 00:32:07,596 - INFO -   DeepNesting S3: Correct=150, Total=150, Precision=0.88, Recall=1.00, F1=0.93
+2025-05-23 00:32:07,597 - INFO -   LargeClass S1: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:32:07,597 - INFO -   LargeClass S2: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:32:07,597 - INFO -   LargeClass S3: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:32:07,597 - INFO -   LongMethod S1: Correct=120, Total=150, Precision=0.94, Recall=0.80, F1=0.86
+2025-05-23 00:32:07,597 - INFO -   LongMethod S2: Correct=132, Total=150, Precision=0.79, Recall=0.88, F1=0.83
+2025-05-23 00:32:07,598 - INFO -   LongMethod S3: Correct=127, Total=150, Precision=0.82, Recall=0.85, F1=0.83
+2025-05-23 00:32:07,598 - INFO -   LongParameterList S1: Correct=133, Total=150, Precision=0.99, Recall=0.89, F1=0.94
+2025-05-23 00:32:07,599 - INFO -   LongParameterList S2: Correct=148, Total=150, Precision=0.89, Recall=0.99, F1=0.94
+2025-05-23 00:32:07,599 - INFO -   LongParameterList S3: Correct=143, Total=150, Precision=0.95, Recall=0.95, F1=0.95
+2025-05-23 00:32:07,600 - INFO -   NoneSmellorUnknown S0: Correct=147, Total=150, Precision=1.00, Recall=0.98, F1=0.99
+2025-05-23 00:32:07,600 - INFO - Evaluating XGBoost on test set...
+2025-05-23 00:32:07,649 - INFO - XGBoost Test Accuracy: 0.9272
+2025-05-23 00:32:07,649 - INFO - XGBoost Test MCC: 0.8984
+2025-05-23 00:32:07,649 - INFO - XGBoost Test Macro F1-Score: 0.9403
+2025-05-23 00:32:07,649 - INFO - XGBoost Test Log Loss: 0.1712
+2025-05-23 00:32:07,649 - INFO - XGBoost Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       150
+           1       0.98      0.88      0.93       600
+           2       0.90      0.92      0.91       600
+           3       0.89      0.96      0.92       600
+
+    accuracy                           0.93      1950
+   macro avg       0.94      0.94      0.94      1950
+weighted avg       0.93      0.93      0.93      1950
+
+2025-05-23 00:32:07,682 - INFO - Smell-Severity Metrics for test (XGBoost):
+2025-05-23 00:32:07,683 - INFO -   DeepNesting S1: Correct=123, Total=150, Precision=0.98, Recall=0.82, F1=0.89
+2025-05-23 00:32:07,683 - INFO -   DeepNesting S2: Correct=134, Total=150, Precision=0.94, Recall=0.89, F1=0.92
+2025-05-23 00:32:07,683 - INFO -   DeepNesting S3: Correct=150, Total=150, Precision=0.82, Recall=1.00, F1=0.90
+2025-05-23 00:32:07,684 - INFO -   LargeClass S1: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:32:07,684 - INFO -   LargeClass S2: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:32:07,684 - INFO -   LargeClass S3: Correct=150, Total=150, Precision=1.00, Recall=1.00, F1=1.00
+2025-05-23 00:32:07,685 - INFO -   LongMethod S1: Correct=125, Total=150, Precision=0.95, Recall=0.83, F1=0.89
+2025-05-23 00:32:07,685 - INFO -   LongMethod S2: Correct=126, Total=150, Precision=0.77, Recall=0.84, F1=0.80
+2025-05-23 00:32:07,685 - INFO -   LongMethod S3: Correct=128, Total=150, Precision=0.83, Recall=0.85, F1=0.84
+2025-05-23 00:32:07,685 - INFO -   LongParameterList S1: Correct=132, Total=150, Precision=0.99, Recall=0.88, F1=0.93
+2025-05-23 00:32:07,686 - INFO -   LongParameterList S2: Correct=143, Total=150, Precision=0.92, Recall=0.95, F1=0.93
+2025-05-23 00:32:07,687 - INFO -   LongParameterList S3: Correct=148, Total=150, Precision=0.93, Recall=0.99, F1=0.95
+2025-05-23 00:32:07,687 - INFO -   NoneSmellorUnknown S0: Correct=149, Total=150, Precision=1.00, Recall=0.99, F1=1.00
+2025-05-23 00:32:07,708 - INFO - Saved XGBoost test smell-severity metrics to F:\PythonDataset\08train\predictions/xgboost_test_smell_metrics.csv
+2025-05-23 00:32:07,727 - INFO - Saved XGBoost model to F:\PythonDataset\08train\models\xgboost_model.joblib
+2025-05-23 00:32:07,759 - INFO - Saved XGBoost test predictions to F:\PythonDataset\08train\predictions\xgboost_test_predictions.csv
+2025-05-23 00:32:07,761 - INFO -
+Final Performance Table (Validation and Test Set):
+2025-05-23 00:32:07,768 - INFO -        Model  Val MCC  Val Accuracy  Val Macro F1  Val Log Loss  Test MCC  Test Accuracy  Test Macro F1  Test Log Loss
+         SVM 0.876365      0.911282      0.926329      0.328835  0.861691       0.901026       0.916577       0.364118
+RandomForest 0.872557      0.909231      0.905716      0.280447  0.846003       0.890256       0.888949       0.318358
+     XGBoost 0.903910      0.931282      0.942335      0.161338  0.898379       0.927179       0.940303       0.171247
+2025-05-23 00:32:07,771 - INFO - Saved performance table to F:\PythonDataset\08train\performance_tables/performance_table.csv
+2025-05-23 00:32:07,780 - INFO -
+Smell-Specific F1-Score Table:
+2025-05-23 00:32:07,784 - INFO - Model                        RandomForest       SVM   XGBoost
+Smell_Type         Severity
+DeepNesting        1             0.897059  0.892989  0.894545
+                   2             0.876325  0.881356  0.917808
+                   3             0.869565  0.880240  0.900901
+LargeClass         1             0.951049  0.976898  1.000000
+                   2             0.955414  0.966667  1.000000
+                   3             1.000000  0.989899  1.000000
+LongMethod         1             0.913043  0.867384  0.886525
+                   2             0.866450  0.777070  0.802548
+                   3             0.908517  0.846906  0.842105
+LongParameterList  1             0.893471  0.907801  0.929577
+                   2             0.804054  0.863946  0.934641
+                   3             0.849840  0.901235  0.954839
+NoneSmellorUnknown 0             0.884758  0.983051  0.996656
+2025-05-23 00:32:07,788 - INFO - Saved smell-specific F1-score table to F:\PythonDataset\08train\performance_tables/smell_f1_table.csv
+2025-05-23 00:32:08,026 - INFO - Performance comparison plot saved in visualizations/performance_comparison.png
+2025-05-23 00:32:08,026 - INFO -
+--- Summary of Key Metrics ---
+2025-05-23 00:32:08,026 - INFO - SVM: Val MCC=0.8764, Val Accuracy=0.9113, Val Log Loss=0.3288
+2025-05-23 00:32:08,026 - INFO - SVM: Test MCC=0.8617, Test Accuracy=0.9010, Test Log Loss=0.3641
+2025-05-23 00:32:08,027 - INFO - RandomForest: Val MCC=0.8726, Val Accuracy=0.9092, Val Log Loss=0.2804
+2025-05-23 00:32:08,027 - INFO - RandomForest: Test MCC=0.8460, Test Accuracy=0.8903, Test Log Loss=0.3184
+2025-05-23 00:32:08,027 - INFO - XGBoost: Val MCC=0.9039, Val Accuracy=0.9313, Val Log Loss=0.1613
+2025-05-23 00:32:08,027 - INFO - XGBoost: Test MCC=0.8984, Test Accuracy=0.9272, Test Log Loss=0.1712
+2025-05-23 00:32:08,027 - INFO - Training completed.
+2025-05-23 00:32:08,040 - INFO -
+Performance Table (Validation and Test Set):
+2025-05-23 00:32:08,043 - INFO -        Model  Val MCC  Val Accuracy  Val Macro F1  Val Log Loss  Test MCC  Test Accuracy  Test Macro F1  Test Log Loss
+         SVM 0.876365      0.911282      0.926329      0.328835  0.861691       0.901026       0.916577       0.364118
+RandomForest 0.872557      0.909231      0.905716      0.280447  0.846003       0.890256       0.888949       0.318358
+     XGBoost 0.903910      0.931282      0.942335      0.161338  0.898379       0.927179       0.940303       0.171247
