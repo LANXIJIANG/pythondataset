@@ -1,0 +1,503 @@
+2025-03-28 21:28:00,106 - INFO - Starting repository cloning process...
+2025-03-28 21:28:00,106 - INFO - Loaded 450 repository URLs from python_repos.txt
+2025-03-28 21:28:01,835 - INFO - Successfully cloned mixup to F:\PythonDataset\repos\mixup
+2025-03-28 21:28:01,858 - INFO - Successfully cloned computer-vision-raspberryp to F:\PythonDataset\repos\computer-vision-raspberryp
+2025-03-28 21:28:01,863 - INFO - Successfully cloned dataconverters to F:\PythonDataset\repos\dataconverters
+2025-03-28 21:28:06,736 - INFO - Successfully cloned HarmoF0 to F:\PythonDataset\repos\HarmoF0
+2025-03-28 21:28:07,059 - INFO - Successfully cloned benchmark to F:\PythonDataset\repos\benchmark
+2025-03-28 21:28:09,444 - INFO - Successfully cloned VGN to F:\PythonDataset\repos\VGN
+2025-03-28 21:28:09,469 - INFO - Successfully cloned Yolov8_with_DCNv3 to F:\PythonDataset\repos\Yolov8_with_DCNv3
+2025-03-28 21:28:11,469 - INFO - Successfully cloned filamentcolors.xyz to F:\PythonDataset\repos\filamentcolors.xyz
+2025-03-28 21:28:12,307 - INFO - Successfully cloned Sberbank2Excel to F:\PythonDataset\repos\Sberbank2Excel
+2025-03-28 21:28:12,738 - INFO - Successfully cloned mixedillWB to F:\PythonDataset\repos\mixedillWB
+2025-03-28 21:28:13,803 - INFO - Successfully cloned mopidy-jellyfin to F:\PythonDataset\repos\mopidy-jellyfin
+2025-03-28 21:28:14,221 - INFO - Successfully cloned PINNs-based-MPC to F:\PythonDataset\repos\PINNs-based-MPC
+2025-03-28 21:28:14,265 - INFO - Successfully cloned liga to F:\PythonDataset\repos\liga
+2025-03-28 21:28:15,383 - INFO - Successfully cloned boxfla to F:\PythonDataset\repos\boxfla
+2025-03-28 21:28:15,706 - INFO - Successfully cloned DFN-tensorflow to F:\PythonDataset\repos\DFN-tensorflow
+2025-03-28 21:28:16,952 - INFO - Successfully cloned pyvisiona to F:\PythonDataset\repos\pyvisiona
+2025-03-28 21:28:17,019 - INFO - Successfully cloned Twilio-Hackpack-for-Heroku-and-Flask to F:\PythonDataset\repos\Twilio-Hackpack-for-Heroku-and-Flask
+2025-03-28 21:28:17,129 - INFO - Successfully cloned kev to F:\PythonDataset\repos\kev
+2025-03-28 21:28:18,702 - INFO - Successfully cloned lv to F:\PythonDataset\repos\lv
+2025-03-28 21:28:18,786 - INFO - Successfully cloned deep_prese to F:\PythonDataset\repos\deep_prese
+2025-03-28 21:28:18,808 - INFO - Successfully cloned DiJian to F:\PythonDataset\repos\DiJian
+2025-03-28 21:28:19,368 - INFO - Successfully cloned festvox to F:\PythonDataset\repos\festvox
+2025-03-28 21:28:20,272 - INFO - Successfully cloned TransCrowd to F:\PythonDataset\repos\TransCrowd
+2025-03-28 21:28:20,315 - INFO - Successfully cloned SlowLoris to F:\PythonDataset\repos\SlowLoris
+2025-03-28 21:28:20,813 - INFO - Successfully cloned sagemaker-graph-fraud-detection to F:\PythonDataset\repos\sagemaker-graph-fraud-detection
+2025-03-28 21:28:22,022 - INFO - Successfully cloned HiQA to F:\PythonDataset\repos\HiQA
+2025-03-28 21:28:22,061 - INFO - Successfully cloned SlicerExtension-VMTK to F:\PythonDataset\repos\SlicerExtension-VMTK
+2025-03-28 21:28:22,228 - INFO - Successfully cloned NewsScrapy to F:\PythonDataset\repos\NewsScrapy
+2025-03-28 21:28:22,928 - INFO - Successfully cloned Stellaris-Exe-Checksum-Patcher to F:\PythonDataset\repos\Stellaris-Exe-Checksum-Patcher
+2025-03-28 21:28:23,636 - INFO - Successfully cloned Edge-popup_with_MMD to F:\PythonDataset\repos\Edge-popup_with_MMD
+2025-03-28 21:28:23,865 - INFO - Successfully cloned ComfyUI-Attention-Distillation to F:\PythonDataset\repos\ComfyUI-Attention-Distillation
+2025-03-28 21:28:24,932 - INFO - Successfully cloned ipvc to F:\PythonDataset\repos\ipvc
+2025-03-28 21:28:25,068 - INFO - Successfully cloned Telegram-Support-Bo to F:\PythonDataset\repos\Telegram-Support-Bo
+2025-03-28 21:28:26,421 - INFO - Successfully cloned fundamentus-ap to F:\PythonDataset\repos\fundamentus-ap
+2025-03-28 21:28:26,594 - INFO - Successfully cloned CoEdPilo to F:\PythonDataset\repos\CoEdPilo
+2025-03-28 21:28:27,514 - INFO - Successfully cloned QiYuTkServer to F:\PythonDataset\repos\QiYuTkServer
+2025-03-28 21:28:28,248 - INFO - Successfully cloned Qtcord to F:\PythonDataset\repos\Qtcord
+2025-03-28 21:28:29,012 - INFO - Successfully cloned MotionPhoto2 to F:\PythonDataset\repos\MotionPhoto2
+2025-03-28 21:28:29,331 - INFO - Successfully cloned PPO-BiHyb to F:\PythonDataset\repos\PPO-BiHyb
+2025-03-28 21:28:30,732 - INFO - Successfully cloned AutoGAN to F:\PythonDataset\repos\AutoGAN
+2025-03-28 21:28:31,196 - INFO - Successfully cloned nrf52840-connectk to F:\PythonDataset\repos\nrf52840-connectk
+2025-03-28 21:28:32,283 - INFO - Successfully cloned deobfuscator to F:\PythonDataset\repos\deobfuscator
+2025-03-28 21:28:32,910 - INFO - Successfully cloned CakeFuzzer to F:\PythonDataset\repos\CakeFuzzer
+2025-03-28 21:28:33,651 - INFO - Successfully cloned margipose to F:\PythonDataset\repos\margipose
+2025-03-28 21:28:34,317 - INFO - Successfully cloned pius to F:\PythonDataset\repos\pius
+2025-03-28 21:28:34,750 - INFO - Successfully cloned beaker to F:\PythonDataset\repos\beaker
+2025-03-28 21:28:35,011 - INFO - Successfully cloned Bilibili_Python to F:\PythonDataset\repos\Bilibili_Python
+2025-03-28 21:28:37,739 - INFO - Successfully cloned MGU-Ne to F:\PythonDataset\repos\MGU-Ne
+2025-03-28 21:28:39,566 - INFO - Successfully cloned voice-lab to F:\PythonDataset\repos\voice-lab
+2025-03-28 21:28:39,645 - INFO - Successfully cloned SPAIC to F:\PythonDataset\repos\SPAIC
+2025-03-28 21:28:41,122 - INFO - Successfully cloned IoctlHunter to F:\PythonDataset\repos\IoctlHunter
+2025-03-28 21:28:41,197 - INFO - Successfully cloned ha-unraid to F:\PythonDataset\repos\ha-unraid
+2025-03-28 21:28:42,744 - INFO - Successfully cloned django-gcm to F:\PythonDataset\repos\django-gcm
+2025-03-28 21:28:43,058 - INFO - Successfully cloned Prompt-Transferability to F:\PythonDataset\repos\Prompt-Transferability
+2025-03-28 21:28:43,319 - INFO - Successfully cloned nvs to F:\PythonDataset\repos\nvs
+2025-03-28 21:28:44,272 - INFO - Successfully cloned TgindexPro to F:\PythonDataset\repos\TgindexPro
+2025-03-28 21:28:44,944 - INFO - Successfully cloned AliNe to F:\PythonDataset\repos\AliNe
+2025-03-28 21:28:45,002 - INFO - Successfully cloned Relation_Extraction to F:\PythonDataset\repos\Relation_Extraction
+2025-03-28 21:28:45,631 - INFO - Successfully cloned 3DILG to F:\PythonDataset\repos\3DILG
+2025-03-28 21:28:45,824 - INFO - Successfully cloned waveton to F:\PythonDataset\repos\waveton
+2025-03-28 21:28:46,512 - INFO - Successfully cloned weibo-scraper to F:\PythonDataset\repos\weibo-scraper
+2025-03-28 21:28:46,643 - INFO - Successfully cloned Daily.py to F:\PythonDataset\repos\Daily.py
+2025-03-28 21:28:47,050 - INFO - Successfully cloned SSAN to F:\PythonDataset\repos\SSAN
+2025-03-28 21:28:47,221 - INFO - Successfully cloned LLM-Distillery to F:\PythonDataset\repos\LLM-Distillery
+2025-03-28 21:28:47,987 - INFO - Successfully cloned soft-ui-dashboard-django to F:\PythonDataset\repos\soft-ui-dashboard-django
+2025-03-28 21:28:49,182 - INFO - Successfully cloned MoSLoRA to F:\PythonDataset\repos\MoSLoRA
+2025-03-28 21:28:50,656 - INFO - Successfully cloned MTL-TabNe to F:\PythonDataset\repos\MTL-TabNe
+2025-03-28 21:28:50,656 - INFO - Successfully cloned speedy-spla to F:\PythonDataset\repos\speedy-spla
+2025-03-28 21:28:50,697 - INFO - Successfully cloned pinax-comments to F:\PythonDataset\repos\pinax-comments
+2025-03-28 21:28:50,903 - INFO - Successfully cloned AD_Prediction to F:\PythonDataset\repos\AD_Prediction
+2025-03-28 21:28:52,283 - INFO - Successfully cloned pygeocodio to F:\PythonDataset\repos\pygeocodio
+2025-03-28 21:28:52,408 - INFO - Successfully cloned py-cloudcv to F:\PythonDataset\repos\py-cloudcv
+2025-03-28 21:28:52,506 - INFO - Successfully cloned facial_emotion_recognition__EMOJIFIER to F:\PythonDataset\repos\facial_emotion_recognition__EMOJIFIER
+2025-03-28 21:28:53,945 - INFO - Successfully cloned PyBayes to F:\PythonDataset\repos\PyBayes
+2025-03-28 21:28:54,066 - INFO - Successfully cloned learningPyQt5 to F:\PythonDataset\repos\learningPyQt5
+2025-03-28 21:28:54,292 - INFO - Successfully cloned osm2gtfs to F:\PythonDataset\repos\osm2gtfs
+2025-03-28 21:28:55,199 - INFO - Successfully cloned CANserver to F:\PythonDataset\repos\CANserver
+2025-03-28 21:28:56,843 - INFO - Successfully cloned p2pfl to F:\PythonDataset\repos\p2pfl
+2025-03-28 21:28:57,007 - INFO - Successfully cloned ddpg_biped to F:\PythonDataset\repos\ddpg_biped
+2025-03-28 21:28:57,082 - INFO - Successfully cloned LEGO-Ne to F:\PythonDataset\repos\LEGO-Ne
+2025-03-28 21:28:57,850 - INFO - Successfully cloned MalConv-Pytorch to F:\PythonDataset\repos\MalConv-Pytorch
+2025-03-28 21:28:58,408 - INFO - Successfully cloned upgrade-util to F:\PythonDataset\repos\upgrade-util
+2025-03-28 21:28:58,492 - INFO - Successfully cloned yolox-pytorch to F:\PythonDataset\repos\yolox-pytorch
+2025-03-28 21:28:59,316 - INFO - Successfully cloned appium-lich to F:\PythonDataset\repos\appium-lich
+2025-03-28 21:28:59,967 - WARNING - Attempt 1/3 failed to clone Python: Cloning into 'F:\PythonDataset\repos\Python'...
+error: invalid path 'sum_element<=N.py'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+2025-03-28 21:29:00,185 - INFO - Successfully cloned quadrupeds_locomotion to F:\PythonDataset\repos\quadrupeds_locomotion
+2025-03-28 21:29:00,784 - INFO - Successfully cloned PythonTwitchBotFramework to F:\PythonDataset\repos\PythonTwitchBotFramework
+2025-03-28 21:29:01,570 - INFO - Successfully cloned sim-shootou to F:\PythonDataset\repos\sim-shootou
+2025-03-28 21:29:02,321 - INFO - Successfully cloned rojak to F:\PythonDataset\repos\rojak
+2025-03-28 21:29:03,738 - INFO - Successfully cloned vfxwindow to F:\PythonDataset\repos\vfxwindow
+2025-03-28 21:29:05,015 - WARNING - Attempt 2/3 failed to clone Python: fatal: destination path 'F:\PythonDataset\repos\Python' already exists and is not an empty directory.
+
+2025-03-28 21:29:05,195 - INFO - Successfully cloned parasail-python to F:\PythonDataset\repos\parasail-python
+2025-03-28 21:29:08,520 - INFO - Successfully cloned GenN2N to F:\PythonDataset\repos\GenN2N
+2025-03-28 21:29:10,062 - WARNING - Attempt 3/3 failed to clone Python: fatal: destination path 'F:\PythonDataset\repos\Python' already exists and is not an empty directory.
+
+2025-03-28 21:29:10,063 - ERROR - Failed to clone Python after 3 attempts
+2025-03-28 21:29:11,571 - INFO - Successfully cloned carla_simulator_Chinese to F:\PythonDataset\repos\carla_simulator_Chinese
+2025-03-28 21:29:11,634 - INFO - Successfully cloned pairipcore-vm to F:\PythonDataset\repos\pairipcore-vm
+2025-03-28 21:29:11,890 - INFO - Successfully cloned facematch to F:\PythonDataset\repos\facematch
+2025-03-28 21:29:13,194 - INFO - Successfully cloned django-syzygy to F:\PythonDataset\repos\django-syzygy
+2025-03-28 21:29:13,325 - INFO - Successfully cloned scaffold-py to F:\PythonDataset\repos\scaffold-py
+2025-03-28 21:29:14,218 - INFO - Successfully cloned Deep-Knowledge-Tracin to F:\PythonDataset\repos\Deep-Knowledge-Tracin
+2025-03-28 21:29:14,793 - INFO - Successfully cloned mediator to F:\PythonDataset\repos\mediator
+2025-03-28 21:29:16,354 - INFO - Successfully cloned MAF-YOLO to F:\PythonDataset\repos\MAF-YOLO
+2025-03-28 21:29:18,382 - INFO - Successfully cloned bifros to F:\PythonDataset\repos\bifros
+2025-03-28 21:29:18,512 - INFO - Successfully cloned RetroCodes to F:\PythonDataset\repos\RetroCodes
+2025-03-28 21:29:19,980 - INFO - Successfully cloned frozenlis to F:\PythonDataset\repos\frozenlis
+2025-03-28 21:29:21,413 - INFO - Successfully cloned XueLangTianch to F:\PythonDataset\repos\XueLangTianch
+2025-03-28 21:29:21,625 - INFO - Successfully cloned SpeechPromp to F:\PythonDataset\repos\SpeechPromp
+2025-03-28 21:29:22,675 - INFO - Successfully cloned Learning-OpenCV-5-Computer-Vision-with-Python-Fourth-Edition to F:\PythonDataset\repos\Learning-OpenCV-5-Computer-Vision-with-Python-Fourth-Edition
+2025-03-28 21:29:23,002 - INFO - Successfully cloned VeryFL to F:\PythonDataset\repos\VeryFL
+2025-03-28 21:29:23,789 - INFO - Successfully cloned Fixed-Point-GAN to F:\PythonDataset\repos\Fixed-Point-GAN
+2025-03-28 21:29:24,211 - INFO - Successfully cloned discomll to F:\PythonDataset\repos\discomll
+2025-03-28 21:29:24,944 - INFO - Successfully cloned VisDrone2018 to F:\PythonDataset\repos\VisDrone2018
+2025-03-28 21:29:25,600 - INFO - Successfully cloned Music-Discord-Bo to F:\PythonDataset\repos\Music-Discord-Bo
+2025-03-28 21:29:28,090 - INFO - Successfully cloned Roleplay-with-XiYou to F:\PythonDataset\repos\Roleplay-with-XiYou
+2025-03-28 21:29:31,152 - INFO - Successfully cloned sunstreaker to F:\PythonDataset\repos\sunstreaker
+2025-03-28 21:29:31,544 - INFO - Successfully cloned SLIViT to F:\PythonDataset\repos\SLIViT
+2025-03-28 21:29:32,559 - INFO - Successfully cloned CGNN to F:\PythonDataset\repos\CGNN
+2025-03-28 21:29:32,563 - INFO - Successfully cloned Mask_RCNN to F:\PythonDataset\repos\Mask_RCNN
+2025-03-28 21:29:32,949 - INFO - Successfully cloned dhcpy6d to F:\PythonDataset\repos\dhcpy6d
+2025-03-28 21:29:34,211 - INFO - Successfully cloned Mtime to F:\PythonDataset\repos\Mtime
+2025-03-28 21:29:34,299 - INFO - Successfully cloned Tidal-DL-Telegram to F:\PythonDataset\repos\Tidal-DL-Telegram
+2025-03-28 21:29:35,367 - INFO - Successfully cloned Recurrent-Independent-Mechanisms to F:\PythonDataset\repos\Recurrent-Independent-Mechanisms
+2025-03-28 21:29:35,638 - INFO - Successfully cloned Contrastive-Tension to F:\PythonDataset\repos\Contrastive-Tension
+2025-03-28 21:29:36,696 - INFO - Successfully cloned python-sshpubkeys to F:\PythonDataset\repos\python-sshpubkeys
+2025-03-28 21:29:37,109 - INFO - Successfully cloned M2PT to F:\PythonDataset\repos\M2PT
+2025-03-28 21:29:37,663 - INFO - Successfully cloned camviz to F:\PythonDataset\repos\camviz
+2025-03-28 21:29:38,588 - INFO - Successfully cloned tashaphyne to F:\PythonDataset\repos\tashaphyne
+2025-03-28 21:29:38,740 - INFO - Successfully cloned deep-ifores to F:\PythonDataset\repos\deep-ifores
+2025-03-28 21:29:39,103 - INFO - Successfully cloned tableau-api-lib to F:\PythonDataset\repos\tableau-api-lib
+2025-03-28 21:29:40,273 - INFO - Successfully cloned io_pdx_mesh to F:\PythonDataset\repos\io_pdx_mesh
+2025-03-28 21:29:40,525 - INFO - Successfully cloned PNP to F:\PythonDataset\repos\PNP
+2025-03-28 21:29:40,680 - INFO - Successfully cloned IsaacAutomator to F:\PythonDataset\repos\IsaacAutomator
+2025-03-28 21:29:41,686 - INFO - Successfully cloned fossil_cairo0 to F:\PythonDataset\repos\fossil_cairo0
+2025-03-28 21:29:42,158 - INFO - Successfully cloned roguelike_tutorial_revised to F:\PythonDataset\repos\roguelike_tutorial_revised
+2025-03-28 21:29:43,047 - INFO - Successfully cloned Squeeze to F:\PythonDataset\repos\Squeeze
+2025-03-28 21:29:43,604 - INFO - Successfully cloned giotto-time to F:\PythonDataset\repos\giotto-time
+2025-03-28 21:29:44,385 - INFO - Successfully cloned AudioClassification-Tensorflow to F:\PythonDataset\repos\AudioClassification-Tensorflow
+2025-03-28 21:29:45,247 - INFO - Successfully cloned slurp to F:\PythonDataset\repos\slurp
+2025-03-28 21:29:45,755 - INFO - Successfully cloned Auto-Data to F:\PythonDataset\repos\Auto-Data
+2025-03-28 21:29:46,984 - INFO - Successfully cloned SlicerMorph to F:\PythonDataset\repos\SlicerMorph
+2025-03-28 21:29:48,759 - INFO - Successfully cloned FEM-vs-PINNs to F:\PythonDataset\repos\FEM-vs-PINNs
+2025-03-28 21:29:51,300 - INFO - Successfully cloned EARL to F:\PythonDataset\repos\EARL
+2025-03-28 21:29:52,170 - WARNING - Attempt 1/3 failed to clone MaskFace: Cloning into 'F:\PythonDataset\repos\MaskFace'...
+Updating files:  87% (1745/2002)
+Updating files:  88% (1762/2002)
+Updating files:  89% (1782/2002)
+Updating files:  90% (1802/2002)
+Updating files:  91% (1822/2002)
+Updating files:  92% (1842/2002)
+Updating files:  93% (1862/2002)
+Updating files:  94% (1882/2002)
+Updating files:  95% (1902/2002)
+Updating files:  96% (1922/2002)
+Updating files:  97% (1942/2002)
+Updating files:  98% (1962/2002)
+Updating files:  99% (1982/2002)
+Updating files: 100% (2002/2002)
+Updating files: 100% (2002/2002), done.
+Downloading weights/yolov3-tiny.conv.15 (31 MB)
+Error downloading object: weights/yolov3-tiny.conv.15 (7de065b): Smudge error: Error downloading weights/yolov3-tiny.conv.15 (7de065b7667a3fe37a1799060ff679ae815900193f0430474ad54c1bb325a47d): batch response: This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs to restore access.
+
+Errors logged to 'F:\PythonDataset\repos\MaskFace\.git\lfs\logs\20250328T212951.8928589.log'.
+Use `git lfs logs last` to view the log.
+error: external filter 'git-lfs filter-process' failed
+fatal: weights/yolov3-tiny.conv.15: smudge filter lfs failed
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+2025-03-28 21:29:52,544 - INFO - Successfully cloned Facebook-Exploit-Python- to F:\PythonDataset\repos\Facebook-Exploit-Python-
+2025-03-28 21:29:52,944 - INFO - Successfully cloned docker-django-bootstrap to F:\PythonDataset\repos\docker-django-bootstrap
+2025-03-28 21:29:53,980 - INFO - Successfully cloned ledgerhelpers to F:\PythonDataset\repos\ledgerhelpers
+2025-03-28 21:29:54,040 - INFO - Successfully cloned mshab to F:\PythonDataset\repos\mshab
+2025-03-28 21:29:54,383 - INFO - Successfully cloned django-groups-manager to F:\PythonDataset\repos\django-groups-manager
+2025-03-28 21:29:55,957 - INFO - Successfully cloned google-alerts to F:\PythonDataset\repos\google-alerts
+2025-03-28 21:29:57,229 - WARNING - Attempt 2/3 failed to clone MaskFace: fatal: destination path 'F:\PythonDataset\repos\MaskFace' already exists and is not an empty directory.
+
+2025-03-28 21:29:57,324 - INFO - Successfully cloned iloveck101 to F:\PythonDataset\repos\iloveck101
+2025-03-28 21:29:57,726 - INFO - Successfully cloned TPSeNCE to F:\PythonDataset\repos\TPSeNCE
+2025-03-28 21:29:59,349 - INFO - Successfully cloned Mr.Holmes to F:\PythonDataset\repos\Mr.Holmes
+2025-03-28 21:30:00,602 - INFO - Successfully cloned axlearn to F:\PythonDataset\repos\axlearn
+2025-03-28 21:30:02,218 - INFO - Successfully cloned DROID-SLAM to F:\PythonDataset\repos\DROID-SLAM
+2025-03-28 21:30:02,274 - WARNING - Attempt 3/3 failed to clone MaskFace: fatal: destination path 'F:\PythonDataset\repos\MaskFace' already exists and is not an empty directory.
+
+2025-03-28 21:30:02,274 - ERROR - Failed to clone MaskFace after 3 attempts
+2025-03-28 21:30:04,620 - INFO - Successfully cloned solara to F:\PythonDataset\repos\solara
+2025-03-28 21:30:04,771 - INFO - Successfully cloned DeepSpeed-MII to F:\PythonDataset\repos\DeepSpeed-MII
+2025-03-28 21:30:09,842 - INFO - Successfully cloned gaphor to F:\PythonDataset\repos\gaphor
+2025-03-28 21:30:10,912 - INFO - Successfully cloned OpenManus-RL to F:\PythonDataset\repos\OpenManus-RL
+2025-03-28 21:30:12,503 - INFO - Successfully cloned spark-deep-learnin to F:\PythonDataset\repos\spark-deep-learnin
+2025-03-28 21:30:13,235 - INFO - Successfully cloned meditron to F:\PythonDataset\repos\meditron
+2025-03-28 21:30:14,504 - INFO - Successfully cloned prisma-client-py to F:\PythonDataset\repos\prisma-client-py
+2025-03-28 21:30:14,788 - INFO - Successfully cloned prompt2model to F:\PythonDataset\repos\prompt2model
+2025-03-28 21:30:17,215 - INFO - Successfully cloned gpiozero to F:\PythonDataset\repos\gpiozero
+2025-03-28 21:30:17,344 - INFO - Successfully cloned YOLOP to F:\PythonDataset\repos\YOLOP
+2025-03-28 21:30:18,353 - INFO - Successfully cloned Open3D-ML to F:\PythonDataset\repos\Open3D-ML
+2025-03-28 21:30:18,933 - INFO - Successfully cloned prospector to F:\PythonDataset\repos\prospector
+2025-03-28 21:30:20,098 - INFO - Successfully cloned TideFinger to F:\PythonDataset\repos\TideFinger
+2025-03-28 21:30:20,577 - INFO - Successfully cloned pydicom to F:\PythonDataset\repos\pydicom
+2025-03-28 21:30:22,429 - INFO - Successfully cloned cantools to F:\PythonDataset\repos\cantools
+2025-03-28 21:30:24,405 - INFO - Successfully cloned Openaibo to F:\PythonDataset\repos\Openaibo
+2025-03-28 21:30:24,971 - INFO - Successfully cloned line-bot-sdk-python to F:\PythonDataset\repos\line-bot-sdk-python
+2025-03-28 21:30:25,930 - INFO - Successfully cloned btlejack to F:\PythonDataset\repos\btlejack
+2025-03-28 21:30:26,348 - INFO - Successfully cloned reFlutter to F:\PythonDataset\repos\reFlutter
+2025-03-28 21:30:28,232 - INFO - Successfully cloned deepvoice3_pytorch to F:\PythonDataset\repos\deepvoice3_pytorch
+2025-03-28 21:30:30,109 - INFO - Successfully cloned sentry-python to F:\PythonDataset\repos\sentry-python
+2025-03-28 21:30:30,235 - INFO - Successfully cloned FastSpeech2 to F:\PythonDataset\repos\FastSpeech2
+2025-03-28 21:30:31,758 - INFO - Successfully cloned glom to F:\PythonDataset\repos\glom
+2025-03-28 21:30:31,821 - INFO - Successfully cloned AsrTools to F:\PythonDataset\repos\AsrTools
+2025-03-28 21:30:35,406 - INFO - Successfully cloned cipherscan to F:\PythonDataset\repos\cipherscan
+2025-03-28 21:30:35,697 - INFO - Successfully cloned glasgow to F:\PythonDataset\repos\glasgow
+2025-03-28 21:30:37,387 - INFO - Successfully cloned django-braces to F:\PythonDataset\repos\django-braces
+2025-03-28 21:30:38,494 - INFO - Successfully cloned AI-Guide-and-Demos-zh_CN to F:\PythonDataset\repos\AI-Guide-and-Demos-zh_CN
+2025-03-28 21:30:39,628 - INFO - Successfully cloned Stable-Diffusion-WebUI-TensorRT to F:\PythonDataset\repos\Stable-Diffusion-WebUI-TensorRT
+2025-03-28 21:30:41,266 - INFO - Successfully cloned mast3r to F:\PythonDataset\repos\mast3r
+2025-03-28 21:30:41,349 - INFO - Successfully cloned NudeNe to F:\PythonDataset\repos\NudeNe
+2025-03-28 21:30:41,768 - INFO - Successfully cloned hrms to F:\PythonDataset\repos\hrms
+2025-03-28 21:30:43,147 - INFO - Successfully cloned places365 to F:\PythonDataset\repos\places365
+2025-03-28 21:30:43,350 - INFO - Successfully cloned chameleon to F:\PythonDataset\repos\chameleon
+2025-03-28 21:30:43,429 - INFO - Successfully cloned mmgeneration to F:\PythonDataset\repos\mmgeneration
+2025-03-28 21:30:45,093 - INFO - Successfully cloned msgpack-python to F:\PythonDataset\repos\msgpack-python
+2025-03-28 21:30:46,369 - INFO - Successfully cloned powerfulseal to F:\PythonDataset\repos\powerfulseal
+2025-03-28 21:30:49,120 - INFO - Successfully cloned minimind-v to F:\PythonDataset\repos\minimind-v
+2025-03-28 21:30:50,556 - INFO - Successfully cloned anyio to F:\PythonDataset\repos\anyio
+2025-03-28 21:30:50,661 - INFO - Successfully cloned orb to F:\PythonDataset\repos\orb
+2025-03-28 21:30:52,093 - INFO - Successfully cloned mailin to F:\PythonDataset\repos\mailin
+2025-03-28 21:30:52,247 - INFO - Successfully cloned POC-T to F:\PythonDataset\repos\POC-T
+2025-03-28 21:30:53,232 - INFO - Successfully cloned Open-Interface to F:\PythonDataset\repos\Open-Interface
+2025-03-28 21:30:53,742 - INFO - Successfully cloned TemporalK to F:\PythonDataset\repos\TemporalK
+2025-03-28 21:30:54,807 - INFO - Successfully cloned cibuildwheel to F:\PythonDataset\repos\cibuildwheel
+2025-03-28 21:30:55,273 - INFO - Successfully cloned CenterPoin to F:\PythonDataset\repos\CenterPoin
+2025-03-28 21:30:57,113 - INFO - Successfully cloned infinity to F:\PythonDataset\repos\infinity
+2025-03-28 21:30:57,798 - INFO - Successfully cloned mmrotate to F:\PythonDataset\repos\mmrotate
+2025-03-28 21:30:58,663 - INFO - Successfully cloned Senta to F:\PythonDataset\repos\Senta
+2025-03-28 21:30:59,281 - INFO - Successfully cloned ytmusicap to F:\PythonDataset\repos\ytmusicap
+2025-03-28 21:31:00,975 - INFO - Successfully cloned DeepIE to F:\PythonDataset\repos\DeepIE
+2025-03-28 21:31:02,483 - INFO - Successfully cloned tinfoleak to F:\PythonDataset\repos\tinfoleak
+2025-03-28 21:31:02,597 - INFO - Successfully cloned adata to F:\PythonDataset\repos\adata
+2025-03-28 21:31:04,121 - INFO - Successfully cloned android-emulator-container-scripts to F:\PythonDataset\repos\android-emulator-container-scripts
+2025-03-28 21:31:04,581 - INFO - Successfully cloned opencve to F:\PythonDataset\repos\opencve
+2025-03-28 21:31:06,120 - INFO - Successfully cloned nixops to F:\PythonDataset\repos\nixops
+2025-03-28 21:31:07,822 - INFO - Successfully cloned PanoHead to F:\PythonDataset\repos\PanoHead
+2025-03-28 21:31:07,871 - INFO - Successfully cloned Tauon to F:\PythonDataset\repos\Tauon
+2025-03-28 21:31:09,625 - INFO - Successfully cloned invoice2data to F:\PythonDataset\repos\invoice2data
+2025-03-28 21:31:11,711 - INFO - Successfully cloned opentelemetry-python to F:\PythonDataset\repos\opentelemetry-python
+2025-03-28 21:31:17,417 - INFO - Successfully cloned code to F:\PythonDataset\repos\code
+2025-03-28 21:31:22,718 - INFO - Successfully cloned FaceX-Zoo to F:\PythonDataset\repos\FaceX-Zoo
+2025-03-28 21:31:25,388 - INFO - Successfully cloned winpython to F:\PythonDataset\repos\winpython
+2025-03-28 21:31:26,450 - INFO - Successfully cloned EasyRec to F:\PythonDataset\repos\EasyRec
+2025-03-28 21:31:26,865 - INFO - Successfully cloned pixel-cnn to F:\PythonDataset\repos\pixel-cnn
+2025-03-28 21:31:28,064 - INFO - Successfully cloned Detic to F:\PythonDataset\repos\Detic
+2025-03-28 21:31:28,780 - INFO - Successfully cloned Coercer to F:\PythonDataset\repos\Coercer
+2025-03-28 21:31:29,447 - INFO - Successfully cloned notion-sdk-py to F:\PythonDataset\repos\notion-sdk-py
+2025-03-28 21:31:43,348 - INFO - Successfully cloned ofrak to F:\PythonDataset\repos\ofrak
+2025-03-28 21:31:44,905 - INFO - Successfully cloned do to F:\PythonDataset\repos\do
+2025-03-28 21:31:45,643 - INFO - Successfully cloned keras-tcn to F:\PythonDataset\repos\keras-tcn
+2025-03-28 21:31:47,532 - INFO - Successfully cloned cocotb to F:\PythonDataset\repos\cocotb
+2025-03-28 21:31:50,428 - INFO - Successfully cloned viseron to F:\PythonDataset\repos\viseron
+2025-03-28 21:31:52,014 - INFO - Successfully cloned python-zeep to F:\PythonDataset\repos\python-zeep
+2025-03-28 21:31:55,088 - INFO - Successfully cloned instructor-embeddin to F:\PythonDataset\repos\instructor-embeddin
+2025-03-28 21:31:55,289 - INFO - Successfully cloned PerfKitBenchmarker to F:\PythonDataset\repos\PerfKitBenchmarker
+2025-03-28 21:31:57,524 - INFO - Successfully cloned ao to F:\PythonDataset\repos\ao
+2025-03-28 21:31:58,816 - INFO - Successfully cloned knowledge-distillation-pytorch to F:\PythonDataset\repos\knowledge-distillation-pytorch
+2025-03-28 21:31:59,674 - INFO - Successfully cloned recommenders to F:\PythonDataset\repos\recommenders
+2025-03-28 21:32:00,075 - INFO - Successfully cloned AutoMorph to F:\PythonDataset\repos\AutoMorph
+2025-03-28 21:32:00,258 - INFO - Successfully cloned html2tex to F:\PythonDataset\repos\html2tex
+2025-03-28 21:32:01,725 - INFO - Successfully cloned GitSavvy to F:\PythonDataset\repos\GitSavvy
+2025-03-28 21:32:02,347 - INFO - Successfully cloned chaostoolk to F:\PythonDataset\repos\chaostoolk
+2025-03-28 21:32:03,499 - INFO - Successfully cloned CoOp to F:\PythonDataset\repos\CoOp
+2025-03-28 21:32:04,920 - INFO - Successfully cloned pytest-mock to F:\PythonDataset\repos\pytest-mock
+2025-03-28 21:32:05,163 - INFO - Successfully cloned pefile to F:\PythonDataset\repos\pefile
+2025-03-28 21:32:06,455 - INFO - Successfully cloned Ebook-Translator-Calibre-Plugin to F:\PythonDataset\repos\Ebook-Translator-Calibre-Plugin
+2025-03-28 21:32:08,441 - INFO - Successfully cloned musegan to F:\PythonDataset\repos\musegan
+2025-03-28 21:32:08,700 - INFO - Successfully cloned pycuda to F:\PythonDataset\repos\pycuda
+2025-03-28 21:32:10,310 - INFO - Successfully cloned SkyReels-V1 to F:\PythonDataset\repos\SkyReels-V1
+2025-03-28 21:32:10,949 - INFO - Successfully cloned djongo to F:\PythonDataset\repos\djongo
+2025-03-28 21:32:12,251 - INFO - Successfully cloned fastembed to F:\PythonDataset\repos\fastembed
+2025-03-28 21:32:14,252 - INFO - Successfully cloned homeassistant-conf to F:\PythonDataset\repos\homeassistant-conf
+2025-03-28 21:32:14,972 - INFO - Successfully cloned parlan to F:\PythonDataset\repos\parlan
+2025-03-28 21:32:17,123 - INFO - Successfully cloned once-for-all to F:\PythonDataset\repos\once-for-all
+2025-03-28 21:32:17,453 - INFO - Successfully cloned ComfyUI-LivePortraitKJ to F:\PythonDataset\repos\ComfyUI-LivePortraitKJ
+2025-03-28 21:32:18,657 - INFO - Successfully cloned pynpu to F:\PythonDataset\repos\pynpu
+2025-03-28 21:32:19,587 - INFO - Successfully cloned linuxcnc to F:\PythonDataset\repos\linuxcnc
+2025-03-28 21:32:20,291 - INFO - Successfully cloned maskscoring_rcnn to F:\PythonDataset\repos\maskscoring_rcnn
+2025-03-28 21:32:20,407 - INFO - Successfully cloned ara to F:\PythonDataset\repos\ara
+2025-03-28 21:32:21,140 - INFO - Successfully cloned spatial-media to F:\PythonDataset\repos\spatial-media
+2025-03-28 21:32:22,018 - INFO - Successfully cloned Chinese-LLaMA-Alpaca-3 to F:\PythonDataset\repos\Chinese-LLaMA-Alpaca-3
+2025-03-28 21:32:25,864 - INFO - Successfully cloned elyra to F:\PythonDataset\repos\elyra
+2025-03-28 21:32:27,502 - INFO - Successfully cloned cvxpylayers to F:\PythonDataset\repos\cvxpylayers
+2025-03-28 21:32:28,793 - INFO - Successfully cloned LLMStack to F:\PythonDataset\repos\LLMStack
+2025-03-28 21:32:30,027 - INFO - Successfully cloned quantum to F:\PythonDataset\repos\quantum
+2025-03-28 21:32:31,446 - INFO - Successfully cloned sd_dreambooth_extension to F:\PythonDataset\repos\sd_dreambooth_extension
+2025-03-28 21:32:35,772 - INFO - Successfully cloned benchmark_VAE to F:\PythonDataset\repos\benchmark_VAE
+2025-03-28 21:32:36,945 - INFO - Successfully cloned supervisor to F:\PythonDataset\repos\supervisor
+2025-03-28 21:32:37,311 - INFO - Successfully cloned GLiNER to F:\PythonDataset\repos\GLiNER
+2025-03-28 21:32:38,090 - INFO - Successfully cloned EQGRP_Lost_in_Translation to F:\PythonDataset\repos\EQGRP_Lost_in_Translation
+2025-03-28 21:32:38,760 - INFO - Successfully cloned gigagan-pytorch to F:\PythonDataset\repos\gigagan-pytorch
+2025-03-28 21:32:40,791 - INFO - Successfully cloned ml-fastv to F:\PythonDataset\repos\ml-fastv
+2025-03-28 21:32:42,207 - INFO - Successfully cloned Time-LLM to F:\PythonDataset\repos\Time-LLM
+2025-03-28 21:32:42,510 - INFO - Successfully cloned CodeGeeX4 to F:\PythonDataset\repos\CodeGeeX4
+2025-03-28 21:32:43,589 - INFO - Successfully cloned mac-cleanup-py to F:\PythonDataset\repos\mac-cleanup-py
+2025-03-28 21:32:45,002 - INFO - Successfully cloned sd-webui-oldsix-promp to F:\PythonDataset\repos\sd-webui-oldsix-promp
+2025-03-28 21:32:47,202 - INFO - Successfully cloned readme-a to F:\PythonDataset\repos\readme-a
+2025-03-28 21:32:47,942 - INFO - Successfully cloned ctrl to F:\PythonDataset\repos\ctrl
+2025-03-28 21:32:49,736 - INFO - Successfully cloned tensorflow_template_application to F:\PythonDataset\repos\tensorflow_template_application
+2025-03-28 21:32:51,259 - INFO - Successfully cloned mongo-connector to F:\PythonDataset\repos\mongo-connector
+2025-03-28 21:32:52,586 - INFO - Successfully cloned NeuralNLP-NeuralClassifier to F:\PythonDataset\repos\NeuralNLP-NeuralClassifier
+2025-03-28 21:32:52,966 - INFO - Successfully cloned nitrain to F:\PythonDataset\repos\nitrain
+2025-03-28 21:32:54,201 - INFO - Successfully cloned uncertainty-toolbox to F:\PythonDataset\repos\uncertainty-toolbox
+2025-03-28 21:32:55,629 - INFO - Successfully cloned pypiserver to F:\PythonDataset\repos\pypiserver
+2025-03-28 21:32:55,774 - INFO - Successfully cloned plotex to F:\PythonDataset\repos\plotex
+2025-03-28 21:32:57,412 - INFO - Successfully cloned Advanced-Deep-Learning-with-Keras to F:\PythonDataset\repos\Advanced-Deep-Learning-with-Keras
+2025-03-28 21:32:58,034 - INFO - Successfully cloned avalanche to F:\PythonDataset\repos\avalanche
+2025-03-28 21:32:58,259 - INFO - Successfully cloned ssd_keras to F:\PythonDataset\repos\ssd_keras
+2025-03-28 21:32:59,650 - INFO - Successfully cloned zero123plus to F:\PythonDataset\repos\zero123plus
+2025-03-28 21:32:59,860 - INFO - Successfully cloned Anonymous to F:\PythonDataset\repos\Anonymous
+2025-03-28 21:33:01,639 - INFO - Successfully cloned drgn to F:\PythonDataset\repos\drgn
+2025-03-28 21:33:02,975 - INFO - Successfully cloned PhySO to F:\PythonDataset\repos\PhySO
+2025-03-28 21:33:03,216 - INFO - Successfully cloned django-q to F:\PythonDataset\repos\django-q
+2025-03-28 21:33:05,093 - INFO - Successfully cloned smplify-x to F:\PythonDataset\repos\smplify-x
+2025-03-28 21:33:05,190 - INFO - Successfully cloned genie to F:\PythonDataset\repos\genie
+2025-03-28 21:33:06,586 - INFO - Successfully cloned domain_analyzer to F:\PythonDataset\repos\domain_analyzer
+2025-03-28 21:33:07,838 - INFO - Successfully cloned lip-reading-deeplearnin to F:\PythonDataset\repos\lip-reading-deeplearnin
+2025-03-28 21:33:08,482 - INFO - Successfully cloned pixivpy to F:\PythonDataset\repos\pixivpy
+2025-03-28 21:33:12,426 - INFO - Successfully cloned WindowsExploits to F:\PythonDataset\repos\WindowsExploits
+2025-03-28 21:33:12,680 - INFO - Successfully cloned Medusa to F:\PythonDataset\repos\Medusa
+2025-03-28 21:33:14,211 - INFO - Successfully cloned SpringBoot-Scan to F:\PythonDataset\repos\SpringBoot-Scan
+2025-03-28 21:33:14,606 - INFO - Successfully cloned Facial-Expression-Recognition.Pytorch to F:\PythonDataset\repos\Facial-Expression-Recognition.Pytorch
+2025-03-28 21:33:16,886 - INFO - Successfully cloned kapitan to F:\PythonDataset\repos\kapitan
+2025-03-28 21:33:18,034 - INFO - Successfully cloned recipe-scrapers to F:\PythonDataset\repos\recipe-scrapers
+2025-03-28 21:33:18,597 - INFO - Successfully cloned youre-the-os to F:\PythonDataset\repos\youre-the-os
+2025-03-28 21:33:19,327 - INFO - Successfully cloned bra to F:\PythonDataset\repos\bra
+2025-03-28 21:33:19,498 - INFO - Successfully cloned public-apis to F:\PythonDataset\repos\public-apis
+2025-03-28 21:33:20,824 - INFO - Successfully cloned system-design-primer to F:\PythonDataset\repos\system-design-primer
+2025-03-28 21:33:21,117 - INFO - Successfully cloned stable-diffusion-webu to F:\PythonDataset\repos\stable-diffusion-webu
+2025-03-28 21:33:23,162 - INFO - Successfully cloned youtube-dl to F:\PythonDataset\repos\youtube-dl
+2025-03-28 21:33:25,164 - INFO - Successfully cloned yt-dlp to F:\PythonDataset\repos\yt-dlp
+2025-03-28 21:33:27,504 - INFO - Successfully cloned transformers to F:\PythonDataset\repos\transformers
+2025-03-28 21:33:31,834 - INFO - Successfully cloned fastap to F:\PythonDataset\repos\fastap
+2025-03-28 21:33:34,048 - INFO - Successfully cloned whisper to F:\PythonDataset\repos\whisper
+2025-03-28 21:33:36,285 - INFO - Successfully cloned ComfyUI to F:\PythonDataset\repos\ComfyUI
+2025-03-28 21:33:36,443 - INFO - Successfully cloned django to F:\PythonDataset\repos\django
+2025-03-28 21:33:38,160 - INFO - Successfully cloned screenshot-to-code to F:\PythonDataset\repos\screenshot-to-code
+2025-03-28 21:33:38,465 - INFO - Successfully cloned pytorch to F:\PythonDataset\repos\pytorch
+2025-03-28 21:33:38,586 - INFO - Successfully cloned devops-exercises to F:\PythonDataset\repos\devops-exercises
+2025-03-28 21:33:42,183 - INFO - Successfully cloned PayloadsAllTheThings to F:\PythonDataset\repos\PayloadsAllTheThings
+2025-03-28 21:33:44,376 - INFO - Successfully cloned ansible to F:\PythonDataset\repos\ansible
+2025-03-28 21:33:46,127 - INFO - Successfully cloned scikit-learn to F:\PythonDataset\repos\scikit-learn
+2025-03-28 21:33:47,807 - INFO - Successfully cloned cpython to F:\PythonDataset\repos\cpython
+2025-03-28 21:33:48,400 - INFO - Successfully cloned open-interpreter to F:\PythonDataset\repos\open-interpreter
+2025-03-28 21:33:49,507 - INFO - Successfully cloned you-ge to F:\PythonDataset\repos\you-ge
+2025-03-28 21:33:50,342 - INFO - Successfully cloned scrapy to F:\PythonDataset\repos\scrapy
+2025-03-28 21:33:51,817 - INFO - Successfully cloned Real-Time-Voice-Clonin to F:\PythonDataset\repos\Real-Time-Voice-Clonin
+2025-03-28 21:33:52,144 - INFO - Successfully cloned face_recognition to F:\PythonDataset\repos\face_recognition
+2025-03-28 21:33:53,624 - INFO - Successfully cloned yolov5 to F:\PythonDataset\repos\yolov5
+2025-03-28 21:33:56,977 - INFO - Successfully cloned annotated_deep_learning_paper_implementations to F:\PythonDataset\repos\annotated_deep_learning_paper_implementations
+2025-03-28 21:33:58,625 - INFO - Successfully cloned requests to F:\PythonDataset\repos\requests
+2025-03-28 21:34:04,403 - INFO - Successfully cloned browser-use to F:\PythonDataset\repos\browser-use
+2025-03-28 21:34:10,529 - INFO - Successfully cloned Deep-Live-Cam to F:\PythonDataset\repos\Deep-Live-Cam
+2025-03-28 21:34:10,878 - INFO - Successfully cloned langflow to F:\PythonDataset\repos\langflow
+2025-03-28 21:34:15,781 - INFO - Successfully cloned pandas to F:\PythonDataset\repos\pandas
+2025-03-28 21:34:19,099 - INFO - Successfully cloned Fooocus to F:\PythonDataset\repos\Fooocus
+2025-03-28 21:34:20,008 - INFO - Successfully cloned openpilo to F:\PythonDataset\repos\openpilo
+2025-03-28 21:34:21,209 - INFO - Successfully cloned GPT-SoVITS to F:\PythonDataset\repos\GPT-SoVITS
+2025-03-28 21:34:23,309 - INFO - Successfully cloned text-generation-webu to F:\PythonDataset\repos\text-generation-webu
+2025-03-28 21:34:23,653 - INFO - Successfully cloned markitdown to F:\PythonDataset\repos\markitdown
+2025-03-28 21:34:24,097 - INFO - Successfully cloned PaddleOCR to F:\PythonDataset\repos\PaddleOCR
+2025-03-28 21:34:25,574 - INFO - Successfully cloned ChatGLM-6B to F:\PythonDataset\repos\ChatGLM-6B
+2025-03-28 21:34:25,702 - INFO - Successfully cloned python-patterns to F:\PythonDataset\repos\python-patterns
+2025-03-28 21:34:27,090 - INFO - Successfully cloned ColossalAI to F:\PythonDataset\repos\ColossalAI
+2025-03-28 21:34:31,220 - INFO - Successfully cloned ailearnin to F:\PythonDataset\repos\ailearnin
+2025-03-28 21:34:33,296 - INFO - Successfully cloned black to F:\PythonDataset\repos\black
+2025-03-28 21:34:36,994 - INFO - Successfully cloned TTS to F:\PythonDataset\repos\TTS
+2025-03-28 21:34:40,450 - INFO - Successfully cloned ultralytics to F:\PythonDataset\repos\ultralytics
+2025-03-28 21:34:44,428 - INFO - Successfully cloned mitmproxy to F:\PythonDataset\repos\mitmproxy
+2025-03-28 21:34:44,476 - INFO - Successfully cloned sentry to F:\PythonDataset\repos\sentry
+2025-03-28 21:34:45,275 - INFO - Successfully cloned llama_index to F:\PythonDataset\repos\llama_index
+2025-03-28 21:34:49,766 - INFO - Successfully cloned quivr to F:\PythonDataset\repos\quivr
+2025-03-28 21:34:52,719 - INFO - Successfully cloned Open-Assistan to F:\PythonDataset\repos\Open-Assistan
+2025-03-28 21:34:53,114 - INFO - Successfully cloned freqtrade to F:\PythonDataset\repos\freqtrade
+2025-03-28 21:34:54,639 - INFO - Successfully cloned GFPGAN to F:\PythonDataset\repos\GFPGAN
+2025-03-28 21:34:56,100 - INFO - Successfully cloned wtfpython to F:\PythonDataset\repos\wtfpython
+2025-03-28 21:35:00,962 - INFO - Successfully cloned DeepSpeed to F:\PythonDataset\repos\DeepSpeed
+2025-03-28 21:35:02,810 - INFO - Successfully cloned gym to F:\PythonDataset\repos\gym
+2025-03-28 21:35:04,352 - INFO - Successfully cloned ChatTTS to F:\PythonDataset\repos\ChatTTS
+2025-03-28 21:35:05,564 - INFO - Successfully cloned MockingBird to F:\PythonDataset\repos\MockingBird
+2025-03-28 21:35:07,331 - INFO - Successfully cloned cl to F:\PythonDataset\repos\cl
+2025-03-28 21:35:11,491 - INFO - Successfully cloned jieba to F:\PythonDataset\repos\jieba
+2025-03-28 21:35:13,803 - INFO - Successfully cloned ray to F:\PythonDataset\repos\ray
+2025-03-28 21:35:13,981 - INFO - Successfully cloned sqlmap to F:\PythonDataset\repos\sqlmap
+2025-03-28 21:35:15,797 - INFO - Successfully cloned gpt-pilo to F:\PythonDataset\repos\gpt-pilo
+2025-03-28 21:35:16,074 - INFO - Successfully cloned pytorch-image-models to F:\PythonDataset\repos\pytorch-image-models
+2025-03-28 21:35:18,514 - INFO - Successfully cloned certbo to F:\PythonDataset\repos\certbo
+2025-03-28 21:35:19,742 - INFO - Successfully cloned ccx to F:\PythonDataset\repos\ccx
+2025-03-28 21:35:22,867 - INFO - Successfully cloned jax to F:\PythonDataset\repos\jax
+2025-03-28 21:35:24,094 - INFO - Successfully cloned spaCy to F:\PythonDataset\repos\spaCy
+2025-03-28 21:35:24,636 - INFO - Successfully cloned ControlNe to F:\PythonDataset\repos\ControlNe
+2025-03-28 21:35:26,649 - INFO - Successfully cloned pytorch-tutorial to F:\PythonDataset\repos\pytorch-tutorial
+2025-03-28 21:35:26,654 - INFO - Successfully cloned fairseq to F:\PythonDataset\repos\fairseq
+2025-03-28 21:35:27,340 - INFO - Successfully cloned manim to F:\PythonDataset\repos\manim
+2025-03-28 21:35:28,707 - INFO - Successfully cloned interactive-coding-challenges to F:\PythonDataset\repos\interactive-coding-challenges
+2025-03-28 21:35:28,880 - INFO - Successfully cloned tqdm to F:\PythonDataset\repos\tqdm
+2025-03-28 21:35:30,638 - INFO - Successfully cloned Hello-Python to F:\PythonDataset\repos\Hello-Python
+2025-03-28 21:35:33,364 - INFO - Successfully cloned aider to F:\PythonDataset\repos\aider
+2025-03-28 21:35:33,500 - INFO - Successfully cloned CheatSheetSeries to F:\PythonDataset\repos\CheatSheetSeries
+2025-03-28 21:35:37,736 - INFO - Successfully cloned numpy to F:\PythonDataset\repos\numpy
+2025-03-28 21:35:38,015 - INFO - Successfully cloned tinygrad to F:\PythonDataset\repos\tinygrad
+2025-03-28 21:35:39,674 - INFO - Successfully cloned Retrieval-based-Voice-Conversion-WebUI to F:\PythonDataset\repos\Retrieval-based-Voice-Conversion-WebUI
+2025-03-28 21:35:41,782 - INFO - Successfully cloned glances to F:\PythonDataset\repos\glances
+2025-03-28 21:35:41,940 - INFO - Successfully cloned diffusers to F:\PythonDataset\repos\diffusers
+2025-03-28 21:35:43,471 - INFO - Successfully cloned python-fire to F:\PythonDataset\repos\python-fire
+2025-03-28 21:35:45,873 - INFO - Successfully cloned redash to F:\PythonDataset\repos\redash
+2025-03-28 21:35:46,776 - INFO - Successfully cloned textual to F:\PythonDataset\repos\textual
+2025-03-28 21:35:49,963 - INFO - Successfully cloned kitty to F:\PythonDataset\repos\kitty
+2025-03-28 21:35:50,179 - INFO - Successfully cloned mem0 to F:\PythonDataset\repos\mem0
+2025-03-28 21:35:57,086 - INFO - Successfully cloned supervision to F:\PythonDataset\repos\supervision
+2025-03-28 21:36:04,407 - INFO - Successfully cloned jumpserver to F:\PythonDataset\repos\jumpserver
+2025-03-28 21:36:06,469 - INFO - Successfully cloned locus to F:\PythonDataset\repos\locus
+2025-03-28 21:36:08,009 - INFO - Successfully cloned Open-Sora to F:\PythonDataset\repos\Open-Sora
+2025-03-28 21:36:14,941 - INFO - Successfully cloned EasyOCR to F:\PythonDataset\repos\EasyOCR
+2025-03-28 21:36:16,602 - INFO - Successfully cloned wttr.in to F:\PythonDataset\repos\wttr.in
+2025-03-28 21:36:18,178 - INFO - Successfully cloned YouCompleteMe to F:\PythonDataset\repos\YouCompleteMe
+2025-03-28 21:36:21,052 - INFO - Successfully cloned MoneyPrinterTurbo to F:\PythonDataset\repos\MoneyPrinterTurbo
+2025-03-28 21:36:23,544 - INFO - Successfully cloned doclin to F:\PythonDataset\repos\doclin
+2025-03-28 21:36:30,698 - INFO - Successfully cloned d2l-en to F:\PythonDataset\repos\d2l-en
+2025-03-28 21:36:35,483 - INFO - Successfully cloned insightface to F:\PythonDataset\repos\insightface
+2025-03-28 21:36:40,401 - INFO - Successfully cloned postho to F:\PythonDataset\repos\postho
+2025-03-28 21:36:43,012 - INFO - Successfully cloned PythonRobotics to F:\PythonDataset\repos\PythonRobotics
+2025-03-28 21:36:48,668 - INFO - Successfully cloned composio to F:\PythonDataset\repos\composio
+2025-03-28 21:36:51,831 - INFO - Successfully cloned Genesis to F:\PythonDataset\repos\Genesis
+2025-03-28 21:36:51,893 - INFO - Successfully cloned crewAI to F:\PythonDataset\repos\crewAI
+2025-03-28 21:36:54,814 - INFO - Successfully cloned graphra to F:\PythonDataset\repos\graphra
+2025-03-28 21:36:55,399 - INFO - Successfully cloned erpnex to F:\PythonDataset\repos\erpnex
+2025-03-28 21:36:56,197 - INFO - Successfully cloned JARVIS to F:\PythonDataset\repos\JARVIS
+2025-03-28 21:36:56,892 - INFO - Successfully cloned pytorch-CycleGAN-and-pix2pix to F:\PythonDataset\repos\pytorch-CycleGAN-and-pix2pix
+2025-03-28 21:36:57,022 - INFO - Successfully cloned awesome-llm-apps to F:\PythonDataset\repos\awesome-llm-apps
+2025-03-28 21:36:57,842 - INFO - Successfully cloned cookiecutter to F:\PythonDataset\repos\cookiecutter
+2025-03-28 21:36:58,380 - INFO - Successfully cloned gpt-2 to F:\PythonDataset\repos\gpt-2
+2025-03-28 21:36:59,124 - INFO - Successfully cloned examples to F:\PythonDataset\repos\examples
+2025-03-28 21:36:59,665 - INFO - Successfully cloned changedetection.io to F:\PythonDataset\repos\changedetection.io
+2025-03-28 21:37:01,604 - INFO - Successfully cloned vit-pytorch to F:\PythonDataset\repos\vit-pytorch
+2025-03-28 21:37:02,039 - INFO - Successfully cloned agno to F:\PythonDataset\repos\agno
+2025-03-28 21:37:02,677 - INFO - Successfully cloned dash to F:\PythonDataset\repos\dash
+2025-03-28 21:37:03,782 - INFO - Successfully cloned facefusion to F:\PythonDataset\repos\facefusion
+2025-03-28 21:37:03,808 - INFO - Successfully cloned reflex to F:\PythonDataset\repos\reflex
+2025-03-28 21:37:04,406 - INFO - Successfully cloned AIInfra to F:\PythonDataset\repos\AIInfra
+2025-03-28 21:37:04,409 - INFO - Successfully cloned tornado to F:\PythonDataset\repos\tornado
+2025-03-28 21:37:05,318 - INFO - Successfully cloned minGPT to F:\PythonDataset\repos\minGPT
+2025-03-28 21:37:05,974 - INFO - Successfully cloned babya to F:\PythonDataset\repos\babya
+2025-03-28 21:37:06,419 - INFO - Successfully cloned kotaemon to F:\PythonDataset\repos\kotaemon
+2025-03-28 21:37:06,871 - INFO - Successfully cloned loguru to F:\PythonDataset\repos\loguru
+2025-03-28 21:37:08,364 - INFO - Successfully cloned magic-wormhole to F:\PythonDataset\repos\magic-wormhole
+2025-03-28 21:37:08,464 - INFO - Successfully cloned MediaCrawler to F:\PythonDataset\repos\MediaCrawler
+2025-03-28 21:37:08,633 - INFO - Successfully cloned DeepSeek-Coder to F:\PythonDataset\repos\DeepSeek-Coder
+2025-03-28 21:37:10,359 - INFO - Successfully cloned localGPT to F:\PythonDataset\repos\localGPT
+2025-03-28 21:37:11,890 - INFO - Successfully cloned serve to F:\PythonDataset\repos\serve
+2025-03-28 21:37:11,935 - INFO - Successfully cloned fish-speech to F:\PythonDataset\repos\fish-speech
+2025-03-28 21:37:14,101 - INFO - Successfully cloned mkdocs to F:\PythonDataset\repos\mkdocs
+2025-03-28 21:37:14,381 - INFO - Successfully cloned calibre to F:\PythonDataset\repos\calibre
+2025-03-28 21:37:15,283 - INFO - Successfully cloned mlc-llm to F:\PythonDataset\repos\mlc-llm
+2025-03-28 21:37:16,285 - INFO - Successfully cloned datasets to F:\PythonDataset\repos\datasets
+2025-03-28 21:37:17,587 - INFO - Successfully cloned unilm to F:\PythonDataset\repos\unilm
+2025-03-28 21:37:19,459 - INFO - Successfully cloned rasa to F:\PythonDataset\repos\rasa
+2025-03-28 21:37:20,716 - INFO - Successfully cloned magenta to F:\PythonDataset\repos\magenta
+2025-03-28 21:37:23,461 - INFO - Successfully cloned spotify-downloader to F:\PythonDataset\repos\spotify-downloader
+2025-03-28 21:37:25,087 - INFO - Successfully cloned nginx-proxy to F:\PythonDataset\repos\nginx-proxy
+2025-03-28 21:37:25,881 - INFO - Successfully cloned learn_python3_spider to F:\PythonDataset\repos\learn_python3_spider
+2025-03-28 21:37:28,992 - INFO - Successfully cloned litellm to F:\PythonDataset\repos\litellm
+2025-03-28 21:37:29,124 - INFO - Successfully cloned prophe to F:\PythonDataset\repos\prophe
+2025-03-28 21:37:31,329 - INFO - Successfully cloned Ciphey to F:\PythonDataset\repos\Ciphey
+2025-03-28 21:37:35,020 - INFO - Successfully cloned wagtail to F:\PythonDataset\repos\wagtail
+2025-03-28 21:37:35,349 - INFO - Successfully cloned Chinese-LLaMA-Alpaca to F:\PythonDataset\repos\Chinese-LLaMA-Alpaca
+2025-03-28 21:37:36,888 - INFO - Successfully cloned python-spider to F:\PythonDataset\repos\python-spider
+2025-03-28 21:37:40,090 - INFO - Successfully cloned pandas-a to F:\PythonDataset\repos\pandas-a
+2025-03-28 21:37:41,385 - INFO - Successfully cloned onnx to F:\PythonDataset\repos\onnx
+2025-03-28 21:37:42,217 - INFO - Successfully cloned sanic to F:\PythonDataset\repos\sanic
+2025-03-28 21:37:43,567 - INFO - Successfully cloned zipline to F:\PythonDataset\repos\zipline
+2025-03-28 21:37:43,978 - INFO - Successfully cloned pyscrip to F:\PythonDataset\repos\pyscrip
+2025-03-28 21:37:47,556 - INFO - Successfully cloned MiniCPM-o to F:\PythonDataset\repos\MiniCPM-o
+2025-03-28 21:37:47,722 - INFO - Successfully cloned pef to F:\PythonDataset\repos\pef
+2025-03-28 21:37:48,976 - INFO - Successfully cloned mlflow to F:\PythonDataset\repos\mlflow
+2025-03-28 21:37:49,163 - INFO - Successfully cloned taipy to F:\PythonDataset\repos\taipy
+2025-03-28 21:37:50,875 - INFO - Successfully cloned Qwen to F:\PythonDataset\repos\Qwen
+2025-03-28 21:37:50,875 - INFO - Cloning completed: 448/450 repositories cloned successfully
+2025-03-28 21:37:50,875 - WARNING - Failed to clone 2 repositories: Python, MaskFace
+2025-03-28 21:37:50,889 - INFO - Cloning process finished. Summary:
+2025-03-28 21:37:50,889 - INFO - Total repositories: 450
+2025-03-28 21:37:50,889 - INFO - Successfully cloned: 448
+2025-03-28 21:37:50,889 - INFO - Failed to clone: 2
+2025-03-28 21:37:50,889 - INFO - Failed repositories: Python, MaskFace
