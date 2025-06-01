@@ -1,0 +1,1 @@
+smell_type,severity,LOC,NOM,LOC_method,CYCLO_method,NOP_method,NEST,TOKEN_COUNT,LENGTH,FAN_IN,FAN_OUT,ATTR_COUNT,INHERIT_DEPTH,smell_code,code_complexity_x,param_loc_ratio_x,class_size_ratio_x,loc_nom_normalized_x,fan_io_ratio_x,code_complexity_y,param_loc_ratio_y,class_size_ratio_y,loc_nom_normalized_y,fan_io_ratio_y

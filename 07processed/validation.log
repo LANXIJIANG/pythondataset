@@ -1,0 +1,127 @@
+2025-05-22 18:10:05,639 - INFO - Starting validation...
+2025-05-22 18:10:05,640 - INFO - Loading datasets...
+2025-05-22 18:10:07,524 - INFO - Loaded full dataset with 19500 samples
+2025-05-22 18:10:07,936 - INFO - Number of duplicates in full dataset (should be 0): 0
+2025-05-22 18:10:07,937 - INFO - Detailed Distribution for full dataset:
+2025-05-22 18:10:07,940 - INFO - Severity Distribution:
+2025-05-22 18:10:07,940 - INFO -   S0: 1500 (7.69%)
+2025-05-22 18:10:07,940 - INFO -   S1: 6000 (30.77%)
+2025-05-22 18:10:07,940 - INFO -   S2: 6000 (30.77%)
+2025-05-22 18:10:07,940 - INFO -   S3: 6000 (30.77%)
+2025-05-22 18:10:07,942 - INFO - Smell Type Distribution:
+2025-05-22 18:10:07,942 - INFO -   DeepNesting: 4500 (23.08%)
+2025-05-22 18:10:07,942 - INFO -   LargeClass: 4500 (23.08%)
+2025-05-22 18:10:07,942 - INFO -   LongMethod: 4500 (23.08%)
+2025-05-22 18:10:07,942 - INFO -   LongParameterList: 4500 (23.08%)
+2025-05-22 18:10:07,942 - INFO -   NoneSmellorUnknown: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO - Smell-Severity Combination Distribution:
+2025-05-22 18:10:07,948 - INFO -   DeepNesting S1: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   DeepNesting S2: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   DeepNesting S3: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LargeClass S1: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LargeClass S2: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LargeClass S3: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LongMethod S1: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LongMethod S2: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LongMethod S3: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LongParameterList S1: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LongParameterList S2: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   LongParameterList S3: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO -   NoneSmellorUnknown S0: 1500 (7.69%)
+2025-05-22 18:10:07,948 - INFO - Splitting dataset with stratification...
+2025-05-22 18:10:08,003 - INFO - Train set: 15600 samples
+2025-05-22 18:10:08,004 - INFO - Val set: 1950 samples
+2025-05-22 18:10:08,004 - INFO - Test set: 1950 samples
+2025-05-22 18:10:08,004 - INFO - Engineering features...
+2025-05-22 18:10:08,008 - INFO - Set class_size_ratio to 0 for samples with NOM == 0
+2025-05-22 18:10:08,012 - INFO - Set class_size_ratio to 0 for samples with NOM == 0
+2025-05-22 18:10:08,015 - INFO - Set class_size_ratio to 0 for samples with NOM == 0
+2025-05-22 18:10:08,016 - INFO - Checking for overlaps...
+2025-05-22 18:10:08,075 - INFO - Train-Val Overlap Rows: 0
+2025-05-22 18:10:08,075 - INFO - No overlaps in Train-Val
+2025-05-22 18:10:08,075 - INFO - Train-Test Overlap Rows: 0
+2025-05-22 18:10:08,075 - INFO - No overlaps in Train-Test
+2025-05-22 18:10:08,075 - INFO - Val-Test Overlap Rows: 0
+2025-05-22 18:10:08,075 - INFO - No overlaps in Val-Test
+2025-05-22 18:10:08,079 - INFO - Saved overlapping samples to F:/PythonDataset/07processed/overlaps/
+2025-05-22 18:10:08,079 - INFO - Detailed Distribution for train:
+2025-05-22 18:10:08,080 - INFO - Severity Distribution:
+2025-05-22 18:10:08,080 - INFO -   S0: 1200 (7.69%)
+2025-05-22 18:10:08,080 - INFO -   S1: 4800 (30.77%)
+2025-05-22 18:10:08,080 - INFO -   S2: 4800 (30.77%)
+2025-05-22 18:10:08,080 - INFO -   S3: 4800 (30.77%)
+2025-05-22 18:10:08,081 - INFO - Smell Type Distribution:
+2025-05-22 18:10:08,081 - INFO -   DeepNesting: 3600 (23.08%)
+2025-05-22 18:10:08,081 - INFO -   LargeClass: 3600 (23.08%)
+2025-05-22 18:10:08,081 - INFO -   LongMethod: 3600 (23.08%)
+2025-05-22 18:10:08,081 - INFO -   LongParameterList: 3600 (23.08%)
+2025-05-22 18:10:08,081 - INFO -   NoneSmellorUnknown: 1200 (7.69%)
+2025-05-22 18:10:08,083 - INFO - Smell-Severity Combination Distribution:
+2025-05-22 18:10:08,083 - INFO -   DeepNesting S1: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   DeepNesting S2: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   DeepNesting S3: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LargeClass S1: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LargeClass S2: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LargeClass S3: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LongMethod S1: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LongMethod S2: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LongMethod S3: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LongParameterList S1: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LongParameterList S2: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   LongParameterList S3: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO -   NoneSmellorUnknown S0: 1200 (7.69%)
+2025-05-22 18:10:08,084 - INFO - Detailed Distribution for val:
+2025-05-22 18:10:08,085 - INFO - Severity Distribution:
+2025-05-22 18:10:08,085 - INFO -   S0: 150 (7.69%)
+2025-05-22 18:10:08,085 - INFO -   S1: 600 (30.77%)
+2025-05-22 18:10:08,085 - INFO -   S2: 600 (30.77%)
+2025-05-22 18:10:08,085 - INFO -   S3: 600 (30.77%)
+2025-05-22 18:10:08,085 - INFO - Smell Type Distribution:
+2025-05-22 18:10:08,085 - INFO -   DeepNesting: 450 (23.08%)
+2025-05-22 18:10:08,085 - INFO -   LargeClass: 450 (23.08%)
+2025-05-22 18:10:08,085 - INFO -   LongMethod: 450 (23.08%)
+2025-05-22 18:10:08,085 - INFO -   LongParameterList: 450 (23.08%)
+2025-05-22 18:10:08,085 - INFO -   NoneSmellorUnknown: 150 (7.69%)
+2025-05-22 18:10:08,086 - INFO - Smell-Severity Combination Distribution:
+2025-05-22 18:10:08,087 - INFO -   DeepNesting S1: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   DeepNesting S2: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   DeepNesting S3: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LargeClass S1: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LargeClass S2: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LargeClass S3: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LongMethod S1: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LongMethod S2: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LongMethod S3: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LongParameterList S1: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LongParameterList S2: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   LongParameterList S3: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO -   NoneSmellorUnknown S0: 150 (7.69%)
+2025-05-22 18:10:08,087 - INFO - Detailed Distribution for test:
+2025-05-22 18:10:08,088 - INFO - Severity Distribution:
+2025-05-22 18:10:08,088 - INFO -   S0: 150 (7.69%)
+2025-05-22 18:10:08,088 - INFO -   S1: 600 (30.77%)
+2025-05-22 18:10:08,088 - INFO -   S2: 600 (30.77%)
+2025-05-22 18:10:08,088 - INFO -   S3: 600 (30.77%)
+2025-05-22 18:10:08,088 - INFO - Smell Type Distribution:
+2025-05-22 18:10:08,088 - INFO -   DeepNesting: 450 (23.08%)
+2025-05-22 18:10:08,088 - INFO -   LargeClass: 450 (23.08%)
+2025-05-22 18:10:08,089 - INFO -   LongMethod: 450 (23.08%)
+2025-05-22 18:10:08,089 - INFO -   LongParameterList: 450 (23.08%)
+2025-05-22 18:10:08,089 - INFO -   NoneSmellorUnknown: 150 (7.69%)
+2025-05-22 18:10:08,089 - INFO - Smell-Severity Combination Distribution:
+2025-05-22 18:10:08,090 - INFO -   DeepNesting S1: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   DeepNesting S2: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   DeepNesting S3: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LargeClass S1: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LargeClass S2: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LargeClass S3: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LongMethod S1: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LongMethod S2: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LongMethod S3: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LongParameterList S1: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LongParameterList S2: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   LongParameterList S3: 150 (7.69%)
+2025-05-22 18:10:08,090 - INFO -   NoneSmellorUnknown S0: 150 (7.69%)
+2025-05-22 18:10:09,602 - INFO - Saved processed data as CSVs with raw values and original smell_type.
+2025-05-22 18:10:10,459 - INFO - Validated saved files: Train=15600, Val=1950, Test=1950
+2025-05-22 18:10:10,459 - INFO - Validation completed.
