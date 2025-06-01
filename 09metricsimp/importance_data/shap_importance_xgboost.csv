@@ -1,0 +1,11 @@
+Feature,Mean_SHAP_Value
+NEST,0.73287755
+LOC_method,0.60677266
+CYCLO_method,0.57621235
+NOP_method,0.5163311
+loc_nom_normalized,0.3404104
+LENGTH,0.33714932
+LOC,0.3196828
+code_complexity,0.30892444
+TOKEN_COUNT,0.14252017
+param_loc_ratio,0.07114783
