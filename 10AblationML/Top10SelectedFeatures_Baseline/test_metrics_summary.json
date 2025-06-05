@@ -1,0 +1,67 @@
+{
+    "ablation_name": "Top10SelectedFeatures_Baseline",
+    "features_used_count": 10,
+    "features_list": [
+        "NEST",
+        "code_complexity",
+        "LOC_method",
+        "LENGTH",
+        "NOP_method",
+        "CYCLO_method",
+        "LOC",
+        "TOKEN_COUNT",
+        "param_loc_ratio",
+        "loc_nom_normalized"
+    ],
+    "best_params_after_gs": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "n_estimators": 200,
+        "subsample": 0.8
+    },
+    "test_accuracy": 0.9282051282051282,
+    "test_mcc": 0.8996927477596172,
+    "test_macro_f1": 0.9410658847701054,
+    "test_log_loss": 0.17315635814615182,
+    "test_classification_report_dict": {
+        "S0": {
+            "precision": 1.0,
+            "recall": 0.9933333333333333,
+            "f1-score": 0.9966555183946488,
+            "support": 150.0
+        },
+        "S1": {
+            "precision": 0.970856102003643,
+            "recall": 0.8883333333333333,
+            "f1-score": 0.927763272410792,
+            "support": 600.0
+        },
+        "S2": {
+            "precision": 0.9089403973509934,
+            "recall": 0.915,
+            "f1-score": 0.9119601328903655,
+            "support": 600.0
+        },
+        "S3": {
+            "precision": 0.8935185185185185,
+            "recall": 0.965,
+            "f1-score": 0.9278846153846154,
+            "support": 600.0
+        },
+        "accuracy": 0.9282051282051282,
+        "macro avg": {
+            "precision": 0.9433287544682888,
+            "recall": 0.9404166666666667,
+            "f1-score": 0.9410658847701054,
+            "support": 1950.0
+        },
+        "weighted avg": {
+            "precision": 0.9302507747302016,
+            "recall": 0.9282051282051282,
+            "f1-score": 0.9282375077798263,
+            "support": 1950.0
+        }
+    }
+}

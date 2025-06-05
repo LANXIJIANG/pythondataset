@@ -1,0 +1,140 @@
+2025-06-03 07:37:16,427 - INFO - Starting ML Ablation Study Script...
+2025-06-03 07:37:16,427 - INFO - Loading data: Train=F:\PythonDataset\07processed\train_processed.csv, Val=F:\PythonDataset\07processed\val_processed.csv, Test=F:\PythonDataset\07processed\test_processed.csv
+2025-06-03 07:37:17,460 - INFO - Data loaded: Train shape (15600, 20), Val shape (1950, 20), Test shape (1950, 20)
+2025-06-03 07:37:17,462 - INFO - --- Starting Ablation: RawFeaturesOnly ---
+2025-06-03 07:37:17,462 - INFO - Using features: ['LOC', 'NOM', 'LOC_method', 'CYCLO_method', 'NOP_method', 'NEST', 'TOKEN_COUNT', 'LENGTH', 'FAN_IN', 'FAN_OUT', 'ATTR_COUNT', 'INHERIT_DEPTH']
+2025-06-03 07:37:17,463 - INFO - Scaling features: ['LOC', 'NOM', 'LOC_method', 'CYCLO_method', 'NOP_method', 'NEST', 'TOKEN_COUNT', 'LENGTH', 'FAN_IN', 'FAN_OUT', 'ATTR_COUNT', 'INHERIT_DEPTH']
+2025-06-03 07:37:17,482 - INFO - Scaler saved to F:\PythonDataset\10AblationML\RawFeaturesOnly\scaler.joblib
+2025-06-03 07:37:17,486 - INFO - Initializing XGBoost model...
+2025-06-03 07:37:17,487 - INFO - Starting GridSearchCV for XGBoost...
+2025-06-03 07:37:17,487 - WARNING - Using a simplified param_grid for ablation GridSearch: {'max_depth': [3, 5], 'learning_rate': [0.1], 'n_estimators': [100, 200], 'min_child_weight': [1, 10], 'subsample': [0.8], 'colsample_bytree': [0.8]}. Expand for production.
+2025-06-03 07:37:38,511 - INFO - GridSearchCV best parameters: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 0.8}
+2025-06-03 07:37:38,526 - INFO - GridSearchCV best score (f1_macro): 0.938594099197939
+2025-06-03 07:37:38,526 - INFO - Evaluating model on test set...
+2025-06-03 07:37:38,625 - INFO - Test Set Evaluation for RawFeaturesOnly:
+2025-06-03 07:37:38,625 - INFO -   Accuracy: 0.9287
+2025-06-03 07:37:38,626 - INFO -   MCC: 0.9004
+2025-06-03 07:37:38,626 - INFO -   Macro F1-Score: 0.9421
+2025-06-03 07:37:38,626 - INFO -   Log Loss: 0.1721
+2025-06-03 07:37:38,626 - INFO -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       1.00      1.00      1.00       150
+          S1       0.97      0.89      0.93       600
+          S2       0.90      0.92      0.91       600
+          S3       0.90      0.96      0.93       600
+
+    accuracy                           0.93      1950
+   macro avg       0.94      0.94      0.94      1950
+weighted avg       0.93      0.93      0.93      1950
+
+2025-06-03 07:37:38,685 - INFO - Per-Smell-Severity F1 Scores for RawFeaturesOnly:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.890459   0.947368  0.840000           150           133
+1           LongMethod       S2  0.798722   0.766871  0.833333           150           163
+2           LongMethod       S3  0.842105   0.831169  0.853333           150           154
+3           LargeClass       S1  1.000000   1.000000  1.000000           150           150
+4           LargeClass       S2  1.000000   1.000000  1.000000           150           150
+5           LargeClass       S3  1.000000   1.000000  1.000000           150           150
+6          DeepNesting       S1  0.888889   0.961240  0.826667           150           129
+7          DeepNesting       S2  0.910959   0.936620  0.886667           150           142
+8          DeepNesting       S3  0.911854   0.837989  1.000000           150           179
+9    LongParameterList       S1  0.937063   0.985294  0.893333           150           136
+10   LongParameterList       S2  0.933775   0.927632  0.940000           150           152
+11   LongParameterList       S3  0.961538   0.925926  1.000000           150           162
+12  NoneSmellorUnknown       S0  1.000000   1.000000  1.000000           150           150
+2025-06-03 07:37:38,738 - INFO - Saved trained XGBoost model for RawFeaturesOnly to F:\PythonDataset\10AblationML\RawFeaturesOnly\xgboost_model.json
+2025-06-03 07:37:38,738 - INFO - --- Finished Ablation: RawFeaturesOnly ---
+2025-06-03 07:37:38,804 - INFO - --- Starting Ablation: AllOriginalAndEngineeredFeatures ---
+2025-06-03 07:37:38,805 - INFO - Using features: ['LOC', 'NOM', 'LOC_method', 'CYCLO_method', 'NOP_method', 'NEST', 'TOKEN_COUNT', 'LENGTH', 'FAN_IN', 'FAN_OUT', 'ATTR_COUNT', 'INHERIT_DEPTH', 'code_complexity', 'param_loc_ratio', 'class_size_ratio', 'loc_nom_normalized', 'fan_io_ratio']
+2025-06-03 07:37:38,806 - INFO - Scaling features: ['LOC', 'NOM', 'LOC_method', 'CYCLO_method', 'NOP_method', 'NEST', 'TOKEN_COUNT', 'LENGTH', 'FAN_IN', 'FAN_OUT', 'ATTR_COUNT', 'INHERIT_DEPTH', 'code_complexity', 'param_loc_ratio', 'class_size_ratio', 'loc_nom_normalized', 'fan_io_ratio']
+2025-06-03 07:37:38,849 - INFO - Scaler saved to F:\PythonDataset\10AblationML\AllOriginalAndEngineeredFeatures\scaler.joblib
+2025-06-03 07:37:38,856 - INFO - Initializing XGBoost model...
+2025-06-03 07:37:38,856 - INFO - Starting GridSearchCV for XGBoost...
+2025-06-03 07:37:38,856 - WARNING - Using a simplified param_grid for ablation GridSearch: {'max_depth': [3, 5], 'learning_rate': [0.1], 'n_estimators': [100, 200], 'min_child_weight': [1, 10], 'subsample': [0.8], 'colsample_bytree': [0.8]}. Expand for production.
+2025-06-03 07:37:49,491 - INFO - GridSearchCV best parameters: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 0.8}
+2025-06-03 07:37:49,491 - INFO - GridSearchCV best score (f1_macro): 0.9370115666700229
+2025-06-03 07:37:49,491 - INFO - Evaluating model on test set...
+2025-06-03 07:37:49,538 - INFO - Test Set Evaluation for AllOriginalAndEngineeredFeatures:
+2025-06-03 07:37:49,538 - INFO -   Accuracy: 0.9251
+2025-06-03 07:37:49,538 - INFO -   MCC: 0.8954
+2025-06-03 07:37:49,538 - INFO -   Macro F1-Score: 0.9386
+2025-06-03 07:37:49,538 - INFO -   Log Loss: 0.1736
+2025-06-03 07:37:49,538 - INFO -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       1.00      0.99      1.00       150
+          S1       0.97      0.89      0.93       600
+          S2       0.90      0.91      0.91       600
+          S3       0.89      0.96      0.92       600
+
+    accuracy                           0.93      1950
+   macro avg       0.94      0.94      0.94      1950
+weighted avg       0.93      0.93      0.93      1950
+
+2025-06-03 07:37:49,575 - INFO - Per-Smell-Severity F1 Scores for AllOriginalAndEngineeredFeatures:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.890459   0.947368  0.840000           150           133
+1           LongMethod       S2  0.800000   0.763636  0.840000           150           165
+2           LongMethod       S3  0.834437   0.828947  0.840000           150           152
+3           LargeClass       S1  1.000000   1.000000  1.000000           150           150
+4           LargeClass       S2  1.000000   1.000000  1.000000           150           150
+5           LargeClass       S3  1.000000   1.000000  1.000000           150           150
+6          DeepNesting       S1  0.888889   0.961240  0.826667           150           129
+7          DeepNesting       S2  0.898955   0.941606  0.860000           150           137
+8          DeepNesting       S3  0.898204   0.815217  1.000000           150           184
+9    LongParameterList       S1  0.933333   0.985185  0.886667           150           135
+10   LongParameterList       S2  0.937294   0.928105  0.946667           150           153
+11   LongParameterList       S3  0.955128   0.919753  0.993333           150           162
+12  NoneSmellorUnknown       S0  0.996656   1.000000  0.993333           150           149
+13  NoneSmellorUnknown       S1  0.000000   0.000000  0.000000             0             1
+2025-06-03 07:37:49,673 - INFO - Saved trained XGBoost model for AllOriginalAndEngineeredFeatures to F:\PythonDataset\10AblationML\AllOriginalAndEngineeredFeatures\xgboost_model.json
+2025-06-03 07:37:49,673 - INFO - --- Finished Ablation: AllOriginalAndEngineeredFeatures ---
+2025-06-03 07:37:49,680 - INFO - --- Starting Ablation: Top10SelectedFeatures_Baseline ---
+2025-06-03 07:37:49,680 - INFO - Using features: ['NEST', 'code_complexity', 'LOC_method', 'LENGTH', 'NOP_method', 'CYCLO_method', 'LOC', 'TOKEN_COUNT', 'param_loc_ratio', 'loc_nom_normalized']
+2025-06-03 07:37:49,681 - INFO - Scaling features: ['NEST', 'code_complexity', 'LOC_method', 'LENGTH', 'NOP_method', 'CYCLO_method', 'LOC', 'TOKEN_COUNT', 'param_loc_ratio', 'loc_nom_normalized']
+2025-06-03 07:37:49,707 - INFO - Scaler saved to F:\PythonDataset\10AblationML\Top10SelectedFeatures_Baseline\scaler.joblib
+2025-06-03 07:37:49,712 - INFO - Initializing XGBoost model...
+2025-06-03 07:37:49,712 - INFO - Starting GridSearchCV for XGBoost...
+2025-06-03 07:37:49,712 - WARNING - Using a simplified param_grid for ablation GridSearch: {'max_depth': [3, 5], 'learning_rate': [0.1], 'n_estimators': [100, 200], 'min_child_weight': [1, 10], 'subsample': [0.8], 'colsample_bytree': [0.8]}. Expand for production.
+2025-06-03 07:37:56,170 - INFO - GridSearchCV best parameters: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 200, 'subsample': 0.8}
+2025-06-03 07:37:56,170 - INFO - GridSearchCV best score (f1_macro): 0.9374117751232728
+2025-06-03 07:37:56,170 - INFO - Evaluating model on test set...
+2025-06-03 07:37:56,217 - INFO - Test Set Evaluation for Top10SelectedFeatures_Baseline:
+2025-06-03 07:37:56,217 - INFO -   Accuracy: 0.9282
+2025-06-03 07:37:56,218 - INFO -   MCC: 0.8997
+2025-06-03 07:37:56,218 - INFO -   Macro F1-Score: 0.9411
+2025-06-03 07:37:56,218 - INFO -   Log Loss: 0.1732
+2025-06-03 07:37:56,218 - INFO -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       1.00      0.99      1.00       150
+          S1       0.97      0.89      0.93       600
+          S2       0.91      0.92      0.91       600
+          S3       0.89      0.96      0.93       600
+
+    accuracy                           0.93      1950
+   macro avg       0.94      0.94      0.94      1950
+weighted avg       0.93      0.93      0.93      1950
+
+2025-06-03 07:37:56,250 - INFO - Per-Smell-Severity F1 Scores for Top10SelectedFeatures_Baseline:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.887324   0.940299  0.840000           150           134
+1           LongMethod       S2  0.806452   0.781250  0.833333           150           160
+2           LongMethod       S3  0.849673   0.833333  0.866667           150           156
+3           LargeClass       S1  1.000000   1.000000  1.000000           150           150
+4           LargeClass       S2  1.000000   1.000000  1.000000           150           150
+5           LargeClass       S3  1.000000   1.000000  1.000000           150           150
+6          DeepNesting       S1  0.888889   0.961240  0.826667           150           129
+7          DeepNesting       S2  0.907216   0.936170  0.880000           150           141
+8          DeepNesting       S3  0.909091   0.833333  1.000000           150           180
+9    LongParameterList       S1  0.933333   0.985185  0.886667           150           135
+10   LongParameterList       S2  0.937294   0.928105  0.946667           150           153
+11   LongParameterList       S3  0.955128   0.919753  0.993333           150           162
+12  NoneSmellorUnknown       S0  0.996656   1.000000  0.993333           150           149
+13  NoneSmellorUnknown       S1  0.000000   0.000000  0.000000             0             1
+2025-06-03 07:37:56,297 - INFO - Saved trained XGBoost model for Top10SelectedFeatures_Baseline to F:\PythonDataset\10AblationML\Top10SelectedFeatures_Baseline\xgboost_model.json
+2025-06-03 07:37:56,298 - INFO - --- Finished Ablation: Top10SelectedFeatures_Baseline ---
+2025-06-03 07:37:56,302 - INFO - Saved combined ablation summaries to F:\PythonDataset\10AblationML\all_ablations_summary.json
+2025-06-03 07:37:56,306 - INFO - Saved comparable summary table to F:\PythonDataset\10AblationML\all_ablations_summary_table.csv
+2025-06-03 07:37:56,306 - INFO - ML Ablation Study Script Finished.

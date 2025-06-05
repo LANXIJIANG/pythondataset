@@ -1,0 +1,154 @@
+2025-06-05 03:43:28,590 - INFO - [011noisycheck.py:204] - Starting ML Noisy Experiment Script...
+2025-06-05 03:43:28,591 - INFO - [011noisycheck.py:73] - Loading datasets, trained XGBoost model, and scaler...
+2025-06-05 03:43:29,958 - INFO - [011noisycheck.py:80] - Data loaded: Train (15600, 20), Val (1950, 20), Test (1950, 20)
+2025-06-05 03:43:29,958 - INFO - [011noisycheck.py:81] - Trained XGBoost model and Scaler loaded.
+2025-06-05 03:43:29,966 - INFO - [011noisycheck.py:222] - 
+--- Experiment 1: Gaussian Noise Injection (on scaled features) ---
+2025-06-05 03:43:29,967 - INFO - [011noisycheck.py:225] - Running Gaussian Noise condition: GaussianNoise_StdMultiplier_0.1
+2025-06-05 03:43:29,972 - INFO - [011noisycheck.py:154] - Evaluating model for condition: GaussianNoise_StdMultiplier_0.1...
+2025-06-05 03:43:30,033 - INFO - [011noisycheck.py:177] -   Test Accuracy: 0.7636
+2025-06-05 03:43:30,033 - INFO - [011noisycheck.py:178] -   Test MCC: 0.6724
+2025-06-05 03:43:30,033 - INFO - [011noisycheck.py:179] -   Test Macro F1-Score: 0.7704
+2025-06-05 03:43:30,033 - INFO - [011noisycheck.py:180] -   Test Log Loss: 0.8621
+2025-06-05 03:43:30,033 - INFO - [011noisycheck.py:181] -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       0.69      0.99      0.81       150
+          S1       0.73      0.75      0.74       600
+          S2       0.74      0.62      0.68       600
+          S3       0.85      0.86      0.85       600
+
+    accuracy                           0.76      1950
+   macro avg       0.75      0.81      0.77      1950
+weighted avg       0.77      0.76      0.76      1950
+
+2025-06-05 03:43:30,069 - INFO - [011noisycheck.py:184] -   Per-Smell-Severity F1 Scores:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.745763   0.758621  0.733333           150           145
+1           LongMethod       S2  0.659864   0.673611  0.646667           150           144
+2           LongMethod       S3  0.808081   0.816327  0.800000           150           147
+3           LargeClass       S1  0.772152   0.734940  0.813333           150           166
+4           LargeClass       S2  0.708029   0.782258  0.646667           150           124
+5           LargeClass       S3  0.932886   0.939189  0.926667           150           148
+6          DeepNesting       S1  0.721649   0.744681  0.700000           150           141
+7          DeepNesting       S2  0.688406   0.753968  0.633333           150           126
+8          DeepNesting       S3  0.828025   0.792683  0.866667           150           164
+9    LongParameterList       S1  0.716981   0.678571  0.760000           150           168
+10   LongParameterList       S2  0.651515   0.754386  0.573333           150           114
+11   LongParameterList       S3  0.847458   0.862069  0.833333           150           145
+12  NoneSmellorUnknown       S0  0.996656   1.000000  0.993333           150           149
+2025-06-05 03:43:30,075 - INFO - [011noisycheck.py:198] - Saved results for GaussianNoise_StdMultiplier_0.1 to F:\PythonDataset\011noisychecking\GaussianNoise\StdMultiplier_0.1
+2025-06-05 03:43:30,075 - INFO - [011noisycheck.py:225] - Running Gaussian Noise condition: GaussianNoise_StdMultiplier_0.25
+2025-06-05 03:43:30,081 - INFO - [011noisycheck.py:154] - Evaluating model for condition: GaussianNoise_StdMultiplier_0.25...
+2025-06-05 03:43:30,134 - INFO - [011noisycheck.py:177] -   Test Accuracy: 0.6190
+2025-06-05 03:43:30,134 - INFO - [011noisycheck.py:178] -   Test MCC: 0.4791
+2025-06-05 03:43:30,135 - INFO - [011noisycheck.py:179] -   Test Macro F1-Score: 0.6183
+2025-06-05 03:43:30,135 - INFO - [011noisycheck.py:180] -   Test Log Loss: 1.3541
+2025-06-05 03:43:30,135 - INFO - [011noisycheck.py:181] -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       0.50      0.95      0.65       150
+          S1       0.58      0.56      0.57       600
+          S2       0.56      0.42      0.48       600
+          S3       0.74      0.80      0.77       600
+
+    accuracy                           0.62      1950
+   macro avg       0.60      0.68      0.62      1950
+weighted avg       0.62      0.62      0.61      1950
+
+2025-06-05 03:43:30,165 - INFO - [011noisycheck.py:184] -   Per-Smell-Severity F1 Scores:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.594595   0.602740  0.586667           150           146
+1           LongMethod       S2  0.424460   0.460938  0.393333           150           128
+2           LongMethod       S3  0.680000   0.680000  0.680000           150           150
+3           LargeClass       S1  0.526316   0.555556  0.500000           150           135
+4           LargeClass       S2  0.400000   0.552941  0.313333           150            85
+5           LargeClass       S3  0.837920   0.774011  0.913333           150           177
+6          DeepNesting       S1  0.592334   0.620438  0.566667           150           137
+7          DeepNesting       S2  0.559387   0.657658  0.486667           150           111
+8          DeepNesting       S3  0.789969   0.745562  0.840000           150           169
+9    LongParameterList       S1  0.581940   0.583893  0.580000           150           149
+10   LongParameterList       S2  0.525926   0.591667  0.473333           150           120
+11   LongParameterList       S3  0.764120   0.761589  0.766667           150           151
+12  NoneSmellorUnknown       S0  0.972603   1.000000  0.946667           150           142
+2025-06-05 03:43:30,170 - INFO - [011noisycheck.py:198] - Saved results for GaussianNoise_StdMultiplier_0.25 to F:\PythonDataset\011noisychecking\GaussianNoise\StdMultiplier_0.25
+2025-06-05 03:43:30,171 - INFO - [011noisycheck.py:225] - Running Gaussian Noise condition: GaussianNoise_StdMultiplier_0.5
+2025-06-05 03:43:30,177 - INFO - [011noisycheck.py:154] - Evaluating model for condition: GaussianNoise_StdMultiplier_0.5...
+2025-06-05 03:43:30,243 - INFO - [011noisycheck.py:177] -   Test Accuracy: 0.5015
+2025-06-05 03:43:30,243 - INFO - [011noisycheck.py:178] -   Test MCC: 0.3266
+2025-06-05 03:43:30,243 - INFO - [011noisycheck.py:179] -   Test Macro F1-Score: 0.4890
+2025-06-05 03:43:30,244 - INFO - [011noisycheck.py:180] -   Test Log Loss: 1.8185
+2025-06-05 03:43:30,244 - INFO - [011noisycheck.py:181] -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       0.37      0.85      0.52       150
+          S1       0.47      0.42      0.45       600
+          S2       0.42      0.25      0.32       600
+          S3       0.62      0.74      0.68       600
+
+    accuracy                           0.50      1950
+   macro avg       0.47      0.57      0.49      1950
+weighted avg       0.50      0.50      0.48      1950
+
+2025-06-05 03:43:30,282 - INFO - [011noisycheck.py:184] -   Per-Smell-Severity F1 Scores:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.490975   0.535433  0.453333           150           127
+1           LongMethod       S2  0.300000   0.400000  0.240000           150            90
+2           LongMethod       S3  0.623145   0.561497  0.700000           150           187
+3           LargeClass       S1  0.372624   0.433628  0.326667           150           113
+4           LargeClass       S2  0.272300   0.460317  0.193333           150            63
+5           LargeClass       S3  0.717791   0.664773  0.780000           150           176
+6          DeepNesting       S1  0.548043   0.587786  0.513333           150           131
+7          DeepNesting       S2  0.396887   0.476636  0.340000           150           107
+8          DeepNesting       S3  0.724036   0.652406  0.813333           150           187
+9    LongParameterList       S1  0.406897   0.421429  0.393333           150           140
+10   LongParameterList       S2  0.284553   0.364583  0.233333           150            96
+11   LongParameterList       S3  0.649842   0.616766  0.686667           150           167
+12  NoneSmellorUnknown       S0  0.916968   1.000000  0.846667           150           127
+2025-06-05 03:43:30,287 - INFO - [011noisycheck.py:198] - Saved results for GaussianNoise_StdMultiplier_0.5 to F:\PythonDataset\011noisychecking\GaussianNoise\StdMultiplier_0.5
+2025-06-05 03:43:30,288 - INFO - [011noisycheck.py:238] - 
+--- Experiment 2: Adding Irrelevant Features & Retraining ---
+2025-06-05 03:43:30,295 - INFO - [011noisycheck.py:102] - Added 3 irrelevant features.
+2025-06-05 03:43:30,298 - INFO - [011noisycheck.py:102] - Added 3 irrelevant features.
+2025-06-05 03:43:30,324 - INFO - [011noisycheck.py:265] - Scaler for irrelevant features experiment saved to F:\PythonDataset\011noisychecking\IrrelevantFeatures\scaler_with_irrelevant.joblib
+2025-06-05 03:43:30,328 - INFO - [011noisycheck.py:272] - Retraining XGBoost for 'With_3_IrrelevantFeatures' with features: ['NEST', 'code_complexity', 'LOC_method', 'LENGTH', 'NOP_method', 'CYCLO_method', 'LOC', 'TOKEN_COUNT', 'param_loc_ratio', 'loc_nom_normalized', 'irrelevant_feat_1', 'irrelevant_feat_2', 'irrelevant_feat_3']
+2025-06-05 03:43:30,329 - INFO - [011noisycheck.py:275] - Starting GridSearchCV for XGBoost with irrelevant features...
+2025-06-05 03:43:51,524 - INFO - [011noisycheck.py:280] - GridSearchCV best parameters (with irrelevant features): {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, 'n_estimators': 150, 'reg_alpha': 2.0, 'reg_lambda': 5.0, 'subsample': 0.8}
+2025-06-05 03:43:51,528 - INFO - [011noisycheck.py:281] - GridSearchCV best score (f1_macro, with irrelevant features): 0.9360450608180089
+2025-06-05 03:43:51,560 - INFO - [011noisycheck.py:286] - Saved retrained XGBoost model for 'With_3_IrrelevantFeatures' to F:\PythonDataset\011noisychecking\IrrelevantFeatures\xgboost_model_with_irrelevant.joblib
+2025-06-05 03:43:51,560 - INFO - [011noisycheck.py:154] - Evaluating model for condition: With_3_IrrelevantFeatures...
+2025-06-05 03:43:51,691 - INFO - [011noisycheck.py:177] -   Test Accuracy: 0.9323
+2025-06-05 03:43:51,691 - INFO - [011noisycheck.py:178] -   Test MCC: 0.9056
+2025-06-05 03:43:51,691 - INFO - [011noisycheck.py:179] -   Test Macro F1-Score: 0.9444
+2025-06-05 03:43:51,691 - INFO - [011noisycheck.py:180] -   Test Log Loss: 0.1814
+2025-06-05 03:43:51,691 - INFO - [011noisycheck.py:181] -   Classification Report:
+              precision    recall  f1-score   support
+
+          S0       1.00      0.99      1.00       150
+          S1       0.98      0.89      0.93       600
+          S2       0.91      0.93      0.92       600
+          S3       0.90      0.97      0.93       600
+
+    accuracy                           0.93      1950
+   macro avg       0.95      0.94      0.94      1950
+weighted avg       0.93      0.93      0.93      1950
+
+2025-06-05 03:43:51,754 - INFO - [011noisycheck.py:184] -   Per-Smell-Severity F1 Scores:
+            Smell_Type Severity  F1_Score  Precision    Recall  Support_True  Support_Pred
+0           LongMethod       S1  0.900000   0.969231  0.840000           150           130
+1           LongMethod       S2  0.811502   0.779141  0.846667           150           163
+2           LongMethod       S3  0.853420   0.834395  0.873333           150           157
+3           LargeClass       S1  1.000000   1.000000  1.000000           150           150
+4           LargeClass       S2  1.000000   1.000000  1.000000           150           150
+5           LargeClass       S3  1.000000   1.000000  1.000000           150           150
+6          DeepNesting       S1  0.892086   0.968750  0.826667           150           128
+7          DeepNesting       S2  0.921502   0.944056  0.900000           150           143
+8          DeepNesting       S3  0.911854   0.837989  1.000000           150           179
+9    LongParameterList       S1  0.933333   0.985185  0.886667           150           135
+10   LongParameterList       S2  0.940789   0.928571  0.953333           150           154
+11   LongParameterList       S3  0.964630   0.931677  1.000000           150           161
+12  NoneSmellorUnknown       S0  0.996656   1.000000  0.993333           150           149
+2025-06-05 03:43:51,771 - INFO - [011noisycheck.py:198] - Saved results for With_3_IrrelevantFeatures to F:\PythonDataset\011noisychecking\IrrelevantFeatures
+2025-06-05 03:43:51,774 - INFO - [011noisycheck.py:295] - Saved combined noisy experiment summaries to F:\PythonDataset\011noisychecking\noisy_experiments_summary.json
+2025-06-05 03:43:51,776 - INFO - [011noisycheck.py:307] - Saved comparable summary table for noisy experiments to F:\PythonDataset\011noisychecking\noisy_experiments_summary_table.csv
+2025-06-05 03:43:51,777 - INFO - [011noisycheck.py:312] - ML Noisy Experiment Script Finished.

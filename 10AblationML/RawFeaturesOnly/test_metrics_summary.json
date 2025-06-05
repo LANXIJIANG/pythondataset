@@ -1,0 +1,69 @@
+{
+    "ablation_name": "RawFeaturesOnly",
+    "features_used_count": 12,
+    "features_list": [
+        "LOC",
+        "NOM",
+        "LOC_method",
+        "CYCLO_method",
+        "NOP_method",
+        "NEST",
+        "TOKEN_COUNT",
+        "LENGTH",
+        "FAN_IN",
+        "FAN_OUT",
+        "ATTR_COUNT",
+        "INHERIT_DEPTH"
+    ],
+    "best_params_after_gs": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_child_weight": 1,
+        "n_estimators": 200,
+        "subsample": 0.8
+    },
+    "test_accuracy": 0.9287179487179488,
+    "test_mcc": 0.9004081583647612,
+    "test_macro_f1": 0.9421302749804504,
+    "test_log_loss": 0.17206733454222922,
+    "test_classification_report_dict": {
+        "S0": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 150.0
+        },
+        "S1": {
+            "precision": 0.9744525547445255,
+            "recall": 0.89,
+            "f1-score": 0.9303135888501742,
+            "support": 600.0
+        },
+        "S2": {
+            "precision": 0.9044481054365733,
+            "recall": 0.915,
+            "f1-score": 0.9096934548467275,
+            "support": 600.0
+        },
+        "S3": {
+            "precision": 0.896124031007752,
+            "recall": 0.9633333333333334,
+            "f1-score": 0.9285140562248996,
+            "support": 600.0
+        },
+        "accuracy": 0.9287179487179488,
+        "macro avg": {
+            "precision": 0.9437561727972127,
+            "recall": 0.9420833333333334,
+            "f1-score": 0.9421302749804504,
+            "support": 1950.0
+        },
+        "weighted avg": {
+            "precision": 0.9307768280581079,
+            "recall": 0.9287179487179488,
+            "f1-score": 0.9287757230528619,
+            "support": 1950.0
+        }
+    }
+}

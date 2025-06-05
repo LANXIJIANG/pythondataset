@@ -1,0 +1,46 @@
+{
+    "condition_name": "GaussianNoise_StdMultiplier_0.5",
+    "test_accuracy": 0.5015384615384615,
+    "test_mcc": 0.3266040965862296,
+    "test_macro_f1": 0.48904997530617655,
+    "test_log_loss": 1.818540341736113,
+    "test_classification_report_dict": {
+        "S0": {
+            "precision": 0.37026239067055394,
+            "recall": 0.8466666666666667,
+            "f1-score": 0.5152129817444219,
+            "support": 150.0
+        },
+        "S1": {
+            "precision": 0.474671669793621,
+            "recall": 0.4216666666666667,
+            "f1-score": 0.44660194174757284,
+            "support": 600.0
+        },
+        "S2": {
+            "precision": 0.42296918767507,
+            "recall": 0.25166666666666665,
+            "f1-score": 0.3155694879832811,
+            "support": 600.0
+        },
+        "S3": {
+            "precision": 0.6234309623430963,
+            "recall": 0.745,
+            "f1-score": 0.6788154897494305,
+            "support": 600.0
+        },
+        "accuracy": 0.5015384615384615,
+        "macro avg": {
+            "precision": 0.4728335526205853,
+            "recall": 0.56625,
+            "f1-score": 0.48904997530617655,
+            "support": 1950.0
+        },
+        "weighted avg": {
+            "precision": 0.49650382076290034,
+            "recall": 0.5015384615384615,
+            "f1-score": 0.4830123584358123,
+            "support": 1950.0
+        }
+    }
+}
