@@ -18,71 +18,14 @@ Model Interpretability: Includes SHAP analysis to identify the most influential 
 🛠️ Methodology Overview
 The research follows a structured pipeline, starting with data collection and ending with a comparative analysis of the two modeling paradigms. The complete workflow is illustrated below.
 
-graph TD
-    A[Data Collection <br> (GitHub)] --> B[Data Preprocessing & <br> Metric Calculation];
-    B --> C[Heuristic Annotation <br> (Assigning Severity)];
-    C --> D[Dataset Balancing <br> (19,500 Samples)];
-    D --> E{Modeling Paths};
-    E --> F[Path A: <br> Traditional Machine Learning];
-    E --> G[Path B: <br> Large Language Models];
-    
-    subgraph Path A
-        F --> F1[Feature Selection & Scaling];
-        F1 --> F2[Model Training <br> (SVM, RF, XGBoost)];
-        F2 --> F3[Evaluation & SHAP Analysis];
-    end
 
-    subgraph Path B
-        G --> G1[Prompt Formatting & <br> Code Chunking];
-        G1 --> G2[PEFT (LoRA) Fine-Tuning <br> (CodeBERT, CodeT5, StarCoder2)];
-        G2 --> G3[Evaluation <br> (Raw & Aggregated)];
-    end
-
-    F3 --> H[Comparative Analysis <br> & Conclusion];
-    G3 --> H;
-
-
-Figure 1: The Overall Research Design and Experimental Pipeline.
-
-🧠 Models and Architectures
-This study compares two main types of models. The LLMs used feature three distinct architectures:
-
-Encoder-Only (CodeBERT)
-Processes the input sequence to generate contextual embeddings for classification.
-
-graph LR
-    A[Input: <br> Code + Metrics] --> B[Encoder];
-    B --> C[Output: <br> Classification];
-
-Figure 2a: Encoder-Only Architecture.
-
-Decoder-Only (StarCoder2)
-Generates predictions in an auto-regressive manner, where the output depends on previous steps.
-
-graph LR
-    A[Input: <br> Code + Metrics] --> B[Decoder];
-    B -- Auto-regressive feedback --> B;
-    B --> C[Output: <br> Classification];
-
-Figure 2b: Decoder-Only Architecture.
-
-Encoder-Decoder (CodeT5)
-The encoder processes the input, and the decoder generates the output label as a text sequence.
-
-graph LR
-    A[Input: <br> Code + Metrics] --> B[Encoder];
-    B --> C[Decoder];
-    C -- Auto-regressive feedback --> C;
-    C --> D[Output: <br> "Generated Label"];
-
-Figure 2c: Encoder-Decoder Architecture.
 
 ⚙️ Setup and Installation
 To replicate this study, please follow these steps:
 
 Clone the repository:
 
-git clone [URL_to_your_repository]
+git clone [URL_to_repository]
 cd [repository_name]
 
 Install dependencies:
