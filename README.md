@@ -71,9 +71,6 @@ Top LLM Model: StarCoder2-3B was the most effective LLM, achieving a highly comp
 
 Key Insight: The study confirms that both traditional ML models (with strong feature engineering) and large-scale LLMs (with metric-enriched prompts) are highly effective paradigms for Python code smell severity classification.
 
-📄 Citation
-
-
 [LAN XIJIANG]. ([2025]). Python Code Smell Severity Classification Using Machine Learning and Large Language Models. [Universiti Malaya].
 
 🙏 Acknowledgements
